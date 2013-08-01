@@ -1,0 +1,49 @@
+/*   SERVICES PAGE
+=================*/
+
+.services-content section {
+	background: transparent url("images/content-divider.png") no-repeat center bottom;
+	padding-bottom: 20px;
+	margin-top: 20px;
+	display: inline-block;
+	width: 100%;
+	position: relative;
+}
+
+.services-content section.last{
+	background: none;
+	padding-bottom: 40px;
+}
+
+.service-consulting .services-btn{
+	bottom: -20px;
+}
+
+.services-content section strong {
+	color: inherit;
+	font-weight: bold;
+}
+
+.services-btn {
+	position: absolute;
+	right: 25px;
+	bottom: 25px;
+}
+
+.services-content section > *{
+	margin-left: 300px;
+}
+
+.services-content section figure{
+	border: 1px solid #434343;
+	background-color: #272727;
+	padding: 7px;
+	float: left;
+	margin-left: 0;
+}
+
+.services-content section h3 {
+	font-size: 17px;
+	font-weight: normal;
+	margin-bottom: 10px;
+}

@@ -1,0 +1,83 @@
+/*   PORTFOLIO PAGE
+=================*/
+
+.gallery-list {
+	display: inline-block;
+	margin-bottom: 20px;
+}
+
+.gallery-list li{
+	width: 250px;
+	height: 180px;
+	float: left;
+	margin: 80px 24px 0;
+}
+
+.gallery-list li a{
+	position: relative;
+	width: 250px;
+	height: 185px;
+	padding: 7px;
+	background-color: #272727;
+	border: 1px solid #434343;
+	color: #fff;
+	display: block;
+	-webkit-transition: all 0.12s ease 0s;
+	-moz-transition: all 0.12s ease 0s;
+	-o-transition: all 0.12s ease 0s;
+	transition: all 0.12s ease 0s;
+}
+
+.gallery-list a h3{
+	position: absolute;
+	background-color: #272727;
+	border-color: #434343;
+	border-width: 1px 0 0 1px;
+	border-style: solid;
+	font-weight: normal;
+	left: -1px;
+	top: -27px;
+	font-size: 14px;
+	padding-left: 10px;
+	height: 26px;
+	line-height: 26px;	
+}
+
+.gallery-list a h3 span{
+	height: 26px;
+	float: left;
+	padding-right: 30px;
+	margin-right: -26px;
+	background: transparent url("images/portfolio/bg-catlabel.png") no-repeat right 0;
+}
+
+.gallery-list li a:hover, .gallery-list li a:hover h3{
+	background-color: #ccc;
+	border-color: #f5f5f5;
+	color: #222;
+}
+
+.gallery-list a:hover h3 span{
+	background-position: right -26px;
+}
+
+.portfolio-image-list .gallery-list li{
+	margin: 58px 24px 0;
+}
+
+.portfolio-image-list .gallery-list li a span{
+	background: transparent url("images/portfolio/bg-zoom-small.png") no-repeat left bottom;
+	width: 250px;
+	height: 185px;
+	position: absolute;
+	top: 7px;
+	left: 7px;
+	-webkit-transition: all 0.12s ease 0s;
+	-moz-transition: all 0.12s ease 0s;
+	-o-transition: all 0.12s ease 0s;
+	transition: all 0.12s ease 0s;
+}
+
+.portfolio-image-list .gallery-list li a:hover span{
+	background: transparent url("images/portfolio/bg-zoom-big.png") no-repeat center center;
+}

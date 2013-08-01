@@ -1,0 +1,102 @@
+/*   CONTACT PAGE
+=================*/
+
+.contact-section .wp{
+	display: block;
+}
+
+#map {	
+	width: 375px;
+	float: left;
+}
+
+#map .find-us{
+	clear: both;
+	float: right;
+	margin-bottom: 2px;
+}
+
+#map > div {
+	width: 360px;
+	height: 296px;
+	border: 1px solid #434343;
+	padding: 7px;
+	float: left;
+}
+
+.contact-content aside{
+	text-align: center;
+	float: right;
+	width: 520px;
+	margin-top: 50px;
+}
+
+.contact-content aside img{
+	margin: 0 auto 20px;
+}
+
+.contact-content aside p{
+	margin-bottom: 10px;
+}
+
+.contact-content aside span{
+	background: transparent url("images/icon-contact.png") no-repeat;
+	padding: 5px 0 5px 40px;
+	height: 32px;
+	line-height: 32px;
+	font-size: 15px;
+	margin: 0 10px
+}
+
+.contact-content aside span.addr {
+	background-position: left 0;
+}
+
+.contact-content aside span.addr:hover {
+	background-position: left -32px;
+}
+
+.contact-content aside span.tel {
+	background-position: left -64px;
+}
+
+.contact-content aside span.tel:hover {
+	background-position: left -96px;
+}
+
+.contact-content aside span.fax {
+	background-position: left -128px;
+}
+
+.contact-content aside span.fax:hover {
+	background-position: left -160px;
+}
+
+.contact-content p a {
+	font-size: 15px;
+	color: #fff;
+}
+
+.contact-content p a:hover {
+	color: #ff00cc;
+}
+
+#contact-socials ul{
+	display: inline-block;
+}
+
+#contact-socials a {
+	background: transparent url("images/icon-socials-b.png") no-repeat;
+	width: 48px;
+	height: 48px;
+	float: left;
+	margin: 0 5px;
+}
+
+#contact-socials a.fb {
+	background-position: left top;
+}
+
+#contact-socials a.tw {
+	background-position: right top;
+}

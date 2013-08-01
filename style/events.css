@@ -1,0 +1,118 @@
+/*   EVENTS
+=================*/
+.events-page-content {
+	margin-top: 50px;
+}
+
+.event-content{
+	float: left;
+	background: #ececec;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2VjZWNlYyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNjZGNkY2QiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top,  #ececec 0%, #cdcdcd 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ececec), color-stop(100%,#cdcdcd));
+	background: -webkit-linear-gradient(top,  #ececec 0%,#cdcdcd 100%);
+	background: -o-linear-gradient(top,  #ececec 0%,#cdcdcd 100%);
+	background: -ms-linear-gradient(top,  #ececec 0%,#cdcdcd 100%);
+	background: linear-gradient(top,  #ececec 0%,#cdcdcd 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ececec', endColorstr='#cdcdcd',GradientType=0 );
+	padding: 15px;
+	width: 530px;	
+	position: relative;
+	color: #333;
+	text-shadow: 1px 1px 0 rgba(255,255,255,0.5);
+	margin-right: 20px
+}
+
+.event-date{
+	position: absolute;
+	right: 20px;
+	top: -4px;
+	width: 80px;
+	height: 80px;
+	background: transparent url("images/events/bg-events-date.png") no-repeat;
+	font-family: Arial;
+	text-shadow: 1px 1px 0 #664085;
+	color: #d0b0e9;
+	text-align: center;
+	padding-top: 10px;
+	font-size: 15px;
+	text-transform: uppercase;
+}
+
+.event-date > *{
+	display: block;
+}
+
+.date-day {
+	font-size: 40px;
+	color: #fff;
+}
+
+.date-month {
+	line-height: 12px;
+	padding-top: 10px;
+}
+
+.event-content figure {
+	width: 525px;
+	height: 200px;
+	overflow: hidden;
+	border: 1px solid #cacaca;
+	margin: 0 auto 15px;
+}
+
+.event-content figure img{
+	width: 525px;
+	height: 200px;
+}
+
+.event-content > div h5{
+	margin-bottom: 1em;
+}
+
+.event-list {
+	float: right;
+	width: 320px;
+}
+
+.event-list h4{
+	border-bottom: 1px solid #fff;
+	font-weight: normal;
+	padding-bottom: 5px;
+	margin-bottom: 10px;
+}
+
+.event-list ul {
+	height: 200px;
+}
+
+.event-list li{
+	margin: 2px 0;
+}
+
+.event-list li a{
+	color: #fff;
+	height: 30px;
+	line-height: 30px;
+	display: block;
+	font-size: 13px;
+}
+
+.event-list li a span{
+	margin-left: -10px;
+	float: left;
+	height: 30px;
+	width: 300px;
+	padding-left: 20px;
+	overflow: hidden;
+}
+
+.event-list li a:hover, .event-list li a.current{
+	text-decoration: none;
+	background: transparent url("images/events/arrow-list-hover.png") no-repeat right top;
+	color: #333;
+}
+
+.event-list li a:hover span, .event-list li a.current span{
+	background: transparent url("images/events/arrow-list-hover.png") no-repeat left top;
+}

@@ -1,0 +1,15 @@
+/*   ABOUT PAGE
+=================*/
+
+.about-content{
+	margin-top: 50px;
+}
+
+.about-content h3{
+	font-size: 17px;
+	margin-bottom: 10px;
+}
+
+.about-content p{
+	margin-bottom: 20px;
+}
