@@ -1,41 +1,47 @@
-<?php /* Smarty version Smarty-3.0.6, created on 2013-08-01 05:49:39
+<?php /* Smarty version Smarty-3.0.6, created on 2013-08-02 04:16:11
          compiled from "D:\wamp\www\GitHub\pergenproductions/templates/_settings/meta.tpl.html" */ ?>
-<?php /*%%SmartyHeaderCode:1314651fa2f3374cfb0-95766685%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:623951fb6acb8f6b48-53644104%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'a8c6b4f29e3514369c01cc0092497ff4b336ad86' => 
     array (
       0 => 'D:\\wamp\\www\\GitHub\\pergenproductions/templates/_settings/meta.tpl.html',
-      1 => 1375348052,
+      1 => 1375431360,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '1314651fa2f3374cfb0-95766685',
+  'nocache_hash' => '623951fb6acb8f6b48-53644104',
   'function' => 
   array (
   ),
   'has_nocache_code' => false,
 )); /*/%%SmartyHeaderCode%%*/?>
-<meta name="google-site-verification" content="GmNU_TPF_p2eA-ZGEy7Z-5EhJHNk1i-98pPlbjqkOYU" />
 <meta charset="utf-8" />
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /> 
-<meta name="description" content="<?php echo $_smarty_tpl->getVariable('SiteData')->value['description'];?>
-">
-<meta name="author" content="Mexo Inc">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="title" content="<?php echo $_smarty_tpl->getVariable('SiteData')->value['title'];?>
-" /> 	
+<meta name="alexaVerifyID" content="zFF03sccwKUOtDsUA-ms274rqHs" />
+<meta name="description" content="<?php echo $_smarty_tpl->getVariable('SiteData')->value['meta']['desc'];?>
+" />
+<meta name="viewport" content="width=device-width" />
+<meta name="verifyownership" content="46d29a4a0f72b4dd0a7f43c0a35f2284" />
+<!--[if ie]><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1,requiresActiveX=true" /><![endif]-->
+<link rel="apple-touch-icon-precomposed" href="apple-touch-icon-precomposed.png" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="apple-touch-icon-72x72-precomposed.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="apple-touch-icon-114x114-precomposed.png" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="apple-touch-icon-144x144-precomposed.png" />
+<link rel="shortcut icon" type=image/x-icon href="/favicon.ico" />
+<link rel=icon type=image/ico href="./favicon.ico" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<link rel="shortlink" href="goo.gl/Z2DKI">
+<link rel="pingback" href="http://pergenproductions.com?action=pingback" />
+<link rel="author" href="/humans.txt" />
+<meta name="dcterms.title" content="" /> 	
 <meta name="designer" content="Mexo Inc" /> 
-<meta name="copyright" content="Copyright 2013"> 
-<meta name="msvalidate.01" content="A6654786A6C1C649F347B7022E298EB6" />
-<meta name="y_key" content="" />
-<meta name="language" content="en" />
+<meta name="dcterms.dateCopyrighted" content="Copyright 2012" /> 
+<meta name="dc.language" content="en" />
 <meta name="robots" content="index, follow" />	 
-<link rel="dns-prefetch" href="http://ajax.googleapis.com" />
-<meta name="application-name" content="" />
-<link rel="pingback" href="http://pergenproductions.com/xmlrpcserver" />
+<meta name="google-site-verification" content="6H4rD74ISZdIVRtfLENaSYGVZtzMElFmu7ZkDzjZ3kg" /> 
+<meta name="msvalidate.01" content="E05CA15F3746E64B05BB7716F3FFA33A" />
+<meta name="y_key" content="" />
 <link rel="canonical" href="<?php echo $_smarty_tpl->getVariable('pagePath')->value;?>
 " />
-<link type="text/plain" rel="author" href="http://pergenproductions.com/humans.txt" />
 <!--[if IE]><meta http-equiv="imagetoolbar" content="no" /><![endif]-->
