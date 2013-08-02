@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.0.6, created on 2013-08-01 06:02:07
+<?php /* Smarty version Smarty-3.0.6, created on 2013-08-02 05:04:06
          compiled from "D:\wamp\www\GitHub\pergenproductions/templates/actions/homepage.tpl.html" */ ?>
-<?php /*%%SmartyHeaderCode:2142651fa321fc94328-29629893%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:3141851fb7606aa9474-44760844%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '243bb21490fea1800425e9d98a0244c75f170789' => 
     array (
       0 => 'D:\\wamp\\www\\GitHub\\pergenproductions/templates/actions/homepage.tpl.html',
-      1 => 1375351326,
+      1 => 1375432930,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '2142651fa321fc94328-29629893',
+  'nocache_hash' => '3141851fb7606aa9474-44760844',
   'function' => 
   array (
   ),
@@ -20,9 +20,9 @@ $_smarty_tpl->decodeProperties(array (
 <section class="content-section">
 			<section id="welcome-section" class="box half-size float-left">
 				<div class="wp">
-					<h3>Welocme to PerGen Production</h3>
-					<p>We at PerGen Production, believe in delivering unique product and service while beating our competitors' pricing and quality. We look at our clients as assets of our company and our goal is to meet the highly competitive entertainment market standards. Our perspective is based on our clients' needs.</p>
-					<p>We treat each event as a new one and will fully consider client's based need and demand before quoting and delivering what is promised. PerGen production is established in 2004 and since then been organizing concerts, weddings, cultural events, fundraising's, holiday events, birthday parties, and many more large and small events with an outstanding satisfaction level from our clients.</p>
+					<h3>Welocme to PerGen Productions</h3>
+					<p>We at PerGen Productions, believe in delivering unique product and service while beating our competitors' pricing and quality. We look at our clients as assets of our company and our goal is to meet the highly competitive entertainment market standards. Our perspective is based on our clients' needs.</p>
+					<p>We treat each event as a new one and will fully consider client's based need and demand before quoting and delivering what is promised. PerGen productions is established in 2004 and since then been organizing concerts, weddings, cultural events, fundraising's, holiday events, birthday parties, and many more large and small events with an outstanding satisfaction level from our clients.</p>
 				</div>
 			</section>
 			<section id="services-section" class="box half-size float-right">

@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.0.6, created on 2013-08-02 04:30:12
+<?php /* Smarty version Smarty-3.0.6, created on 2013-08-02 04:51:56
          compiled from "D:\wamp\www\GitHub\pergenproductions/templates/actions/about.tpl.html" */ ?>
-<?php /*%%SmartyHeaderCode:2910251fb6e14abf602-31581327%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:337051fb732c68ecb7-49139825%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '19cab1eb60d8ac897d053e8990ee25eb8c060176' => 
     array (
       0 => 'D:\\wamp\\www\\GitHub\\pergenproductions/templates/actions/about.tpl.html',
-      1 => 1375432110,
+      1 => 1375433159,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '2910251fb6e14abf602-31581327',
+  'nocache_hash' => '337051fb732c68ecb7-49139825',
   'function' => 
   array (
   ),
@@ -30,9 +30,9 @@ $_smarty_tpl->decodeProperties(array (
 					</hgroup>
 					<section class="about-content">
 						<h3>Who We Are?</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vel gravida sem. Ut ac felis nec lectus lobortis vulputate. Nam vehicula elit eget quam molestie in adipiscing eros scelerisque. Morbi in turpis vel purus mattis aliquam. Sed tincidunt gravida ligula, eget dictum velit fringilla sed. Ut molestie adipiscing nunc, vel mattis nisl commodo tempor. Pellentesque euismod mi vitae nibh scelerisque ornare. Donec sed purus eget urna tempor tristique. Curabitur vulputate lacinia nisl ut porta. Curabitur massa enim, tempor eu tincidunt non, aliquet et augue. Donec a est est. </p>
+						<p>Pergen Productions is a event-planning company that provides services in the DC Metro and Greater Fairfax area out of our main office in Vienna, Virginia. Since the company's start-up in 2004, we've continued to provide clients with a wide assortment of event-planning options, whether it's for a birthday party, cultural event, company conference, wedding and many other types of events as well.</p>
 						<h3>What We do?</h3>
-						<p>Donec elit erat, imperdiet ac lacinia sed, posuere eget dui. Sed auctor molestie vehicula. Ut dapibus, augue suscipit varius faucibus, nisl enim mollis lorem, at pretium diam odio in arcu. Sed vitae neque risus, in volutpat sapien. Sed vehicula tincidunt erat vehicula egestas. Mauris a nisl ut dolor sollicitudin suscipit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc massa mi, vestibulum eu blandit id, suscipit at ligula. </p>
+						<p>Our industry consultants assist clients in every step of the party-planning process, such as choosing venues, lighting fixtures, sound systems, entertainment, emcees and everything else in between. It is the promise of Pergen Productions that all of our clients will be able to plan and hold a successful event while not having to worry about going over-budget. </p>
 					</section>
 				</div>
 			</section>

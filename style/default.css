@@ -263,6 +263,19 @@ nav ul, nav li{
 	position: relative;
 }
 
+.inner-content{
+	margin-top: 50px;
+}
+
+.inner-content h3{
+	font-size: 17px;
+	margin-bottom: 10px;
+}
+
+.inner-content p{
+	margin-bottom: 20px;
+}
+
 .clearfix:after {
 	height: auto;
 }

@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.0.6, created on 2013-08-02 03:49:27
+<?php /* Smarty version Smarty-3.0.6, created on 2013-08-02 05:37:45
          compiled from "D:\wamp\www\GitHub\pergenproductions/templates/actions/services.tpl.html" */ ?>
-<?php /*%%SmartyHeaderCode:2753651fb64875f4bf0-18403493%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:2504651fb7de91e2b82-65554159%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '7fbccfcd414325b56cf145cdb515b8f22fd2daf6' => 
     array (
       0 => 'D:\\wamp\\www\\GitHub\\pergenproductions/templates/actions/services.tpl.html',
-      1 => 1375429592,
+      1 => 1375436261,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '2753651fb64875f4bf0-18403493',
+  'nocache_hash' => '2504651fb7de91e2b82-65554159',
   'function' => 
   array (
   ),
@@ -36,12 +36,17 @@ $_smarty_tpl->decodeProperties(array (
 services/service-entertainment.jpg" alt="Entertainment Service" ></figure>
 							<h3>Entertainment</h3>
 							<ul class="bullet-list">
-								<li><strong>Wedding:</strong> Singer, DJ, Light, Sound, Wedding Planning, Hair Dressing, Center Piece, Flower, Venue Rental</li>
-								<li><strong>Birthday:</strong> Party Room and Venue Rental, DJ, Singer, Sound, Lighting, Event Planning</li>
-								<li><strong>Concert</strong></li>
-								<li><strong>Corporate</strong> Meeting, Gathering, Party</li>
+								<li><a href="<?php echo $_smarty_tpl->getVariable('SiteData')->value['urls']['site']['services_wedding'];?>
+"><strong>Wedding:</strong></a> Singer, DJ, Light, Sound, Wedding Planning, Hair Dressing, Center Piece, Flower, Venue Rental</li>
+								<li><a href="<?php echo $_smarty_tpl->getVariable('SiteData')->value['urls']['site']['services_birthday'];?>
+"><strong>Birthday:</strong></a> Party Room and Venue Rental, DJ, Singer, Sound, Lighting, Event Planning</li>
+								<li><a href="<?php echo $_smarty_tpl->getVariable('SiteData')->value['urls']['site']['services_concert'];?>
+"><strong>Concert</strong></a></li>
+								<li><a href="<?php echo $_smarty_tpl->getVariable('SiteData')->value['urls']['site']['services_corporate'];?>
+"><strong>Corporate</strong></a> Meeting, Gathering, Party</li>
 								<li><strong>Holiday</strong> Events</li>
-								<li><strong>Cultural</strong> Events</li>
+								<li><a href="<?php echo $_smarty_tpl->getVariable('SiteData')->value['urls']['site']['services_cultural'];?>
+"><strong>Cultural</strong></a> Events</li>
 							</ul>
 							<div class="services-btn"><a href="javascript:void(0)"><span>Entertainment Gallery</span></a></div>
 						</section>

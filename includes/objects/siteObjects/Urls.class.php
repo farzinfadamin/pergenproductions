@@ -16,8 +16,14 @@
 			$siteUrls["contact"] = LiteFrame::BuildActionUrl( "contact" );
 			$siteUrls["testimonials"] = LiteFrame::BuildActionUrl( "testimonials" );
 			$siteUrls["services"] = LiteFrame::BuildActionUrl( "services" );
-			$siteUrls["wedding"] = LiteFrame::BuildActionUrl( "wedding" );
+			$siteUrls["services_wedding"] = LiteFrame::BuildActionUrl( "services-wedding" );
+			$siteUrls["services_birthday"] = LiteFrame::BuildActionUrl( "services-birthday" );
+			$siteUrls["services_concert"] = LiteFrame::BuildActionUrl( "services-concert" );
+			$siteUrls["services_corporate"] = LiteFrame::BuildActionUrl( "services-corporate" );
+			$siteUrls["services_holiday"] = LiteFrame::BuildActionUrl( "services-holiday" );
+			$siteUrls["services_cultural"] = LiteFrame::BuildActionUrl( "services-cultural" );
 			$siteUrls["portfolio"] = LiteFrame::BuildActionUrl( "portfolio" );
+			$siteUrls["portfolio_wedding"] = LiteFrame::BuildActionUrl( "portfolio-wedding" );
 			$siteUrls["events"] = LiteFrame::BuildActionUrl( "events" );
 			
 			$external = array();

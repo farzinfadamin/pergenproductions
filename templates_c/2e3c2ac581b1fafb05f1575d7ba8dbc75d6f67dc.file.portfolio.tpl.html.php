@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.0.6, created on 2013-08-02 03:49:32
+<?php /* Smarty version Smarty-3.0.6, created on 2013-08-02 05:53:35
          compiled from "D:\wamp\www\GitHub\pergenproductions/templates/actions/portfolio.tpl.html" */ ?>
-<?php /*%%SmartyHeaderCode:663251fb648cc4ea78-13615295%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:1706851fb819f19e4b1-96212422%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '2e3c2ac581b1fafb05f1575d7ba8dbc75d6f67dc' => 
     array (
       0 => 'D:\\wamp\\www\\GitHub\\pergenproductions/templates/actions/portfolio.tpl.html',
-      1 => 1375429585,
+      1 => 1375437212,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '663251fb648cc4ea78-13615295',
+  'nocache_hash' => '1706851fb819f19e4b1-96212422',
   'function' => 
   array (
   ),
@@ -31,7 +31,7 @@ $_smarty_tpl->decodeProperties(array (
 					<section class="portfolio-content">
 						<ul class="gallery-list">
 							<li>
-								<a href="<?php echo $_smarty_tpl->getVariable('SiteData')->value['urls']['site']['wedding'];?>
+								<a href="<?php echo $_smarty_tpl->getVariable('SiteData')->value['urls']['site']['portfolio_wedding'];?>
 ">
 									<h3><span>Wedding</span></h3>
 									<img src="<?php echo $_smarty_tpl->getVariable('imagePath')->value;?>

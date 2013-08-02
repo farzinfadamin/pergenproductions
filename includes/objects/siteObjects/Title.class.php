@@ -15,6 +15,9 @@
 				case "portfolio":
 					$title = "Portfolio | PerGen Productions";
 					break;
+				case "portfolio-wedding":
+					$title = "Wedding Portfolio | PerGen Productions";
+					break;
 				case "events":
 					$title = "Events | PerGen Productions";
 					break;
@@ -27,8 +30,11 @@
 				case "about":
 					$title = "About Us | PerGen Productions";
 					break;
-				case "wedding":
-					$title = "Wedding | PerGen Productions";
+				case "services":
+					$title = "Services | PerGen Productions";
+					break;
+				case "services-wedding":
+					$title = "Wedding Services | PerGen Productions";
 					break;
 			}
 			$this->results = $title;

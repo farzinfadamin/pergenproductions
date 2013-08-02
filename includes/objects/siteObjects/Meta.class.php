@@ -14,7 +14,16 @@
 				case "portfolio":
 					$title = "";
 					break;
+				case "portfolio-wedding":
+					$title = "";
+					break;
 				case "events":
+					$title = "";
+					break;
+				case "services":
+					$title = "";
+					break;
+				case "service-wedding":
 					$title = "";
 					break;
 				case "tetimonials":
@@ -24,9 +33,6 @@
 					$title = "";
 					break;
 				case "about":
-					$title = "";
-					break;
-				case "wedding":
 					$title = "";
 					break;
 			}
