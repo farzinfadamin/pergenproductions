@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.0.6, created on 2013-08-01 07:59:31
+<?php /* Smarty version Smarty-3.0.6, created on 2013-08-02 03:29:04
          compiled from "D:\wamp\www\GitHub\pergenproductions/templates/actions/events.tpl.html" */ ?>
-<?php /*%%SmartyHeaderCode:1800351fa4da3b49584-56149722%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:1083451fb5fc03eac26-23902447%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '583f45559750159f3fdd0f4b3668d7c6f10804bf' => 
     array (
       0 => 'D:\\wamp\\www\\GitHub\\pergenproductions/templates/actions/events.tpl.html',
-      1 => 1375356509,
+      1 => 1375358474,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '1800351fa4da3b49584-56149722',
+  'nocache_hash' => '1083451fb5fc03eac26-23902447',
   'function' => 
   array (
   ),
@@ -24,7 +24,7 @@ $_smarty_tpl->decodeProperties(array (
 						<h2>Events</h2>
 						<nav class="breadcrumb">
 							<a href="<?php echo $_smarty_tpl->getVariable('applicationPath')->value;?>
-">Home</a>&rsaquo;
+">Home</a> &rsaquo;
 							<span>Events</span>
 						</nav>
 					</hgroup>
