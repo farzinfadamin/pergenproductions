@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.0.6, created on 2013-08-01 07:51:51
+<?php /* Smarty version Smarty-3.0.6, created on 2013-08-02 03:48:57
          compiled from "D:\wamp\www\GitHub\pergenproductions/templates/actions/contact.tpl.html" */ ?>
-<?php /*%%SmartyHeaderCode:585051fa4bd7ec7ad9-77019766%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:1941751fb646975a5b7-14320073%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'cab7e7000e0b84e61d58249c1155bc7f4e257dd3' => 
     array (
       0 => 'D:\\wamp\\www\\GitHub\\pergenproductions/templates/actions/contact.tpl.html',
-      1 => 1375357911,
+      1 => 1375429621,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '585051fa4bd7ec7ad9-77019766',
+  'nocache_hash' => '1941751fb646975a5b7-14320073',
   'function' => 
   array (
   ),
@@ -24,8 +24,8 @@ $_smarty_tpl->decodeProperties(array (
 						<h2>Contact Us</h2>
 						<p>We would love to hear from you. Feel free to call or email our office with any questions.</p>
 						<nav class="breadcrumb">
-							<a href="<?php echo $_smarty_tpl->getVariable('applicationPath')->value;?>
-">Home</a>&rsaquo;
+							<a href="<?php echo $_smarty_tpl->getVariable('SiteData')->value['urls']['site']['homepage'];?>
+">Home</a> &rsaquo;
 							<span >Contact Us</span>
 						</nav>
 					</hgroup>

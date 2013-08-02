@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.0.6, created on 2013-08-01 07:49:43
+<?php /* Smarty version Smarty-3.0.6, created on 2013-08-02 03:49:38
          compiled from "D:\wamp\www\GitHub\pergenproductions/templates/actions/wedding.tpl.html" */ ?>
-<?php /*%%SmartyHeaderCode:1585751fa4b570fe886-34318993%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:2662551fb6492202058-62367935%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '0497e4847dad3ac23daaf4247425bd0e2c5dbc90' => 
     array (
       0 => 'D:\\wamp\\www\\GitHub\\pergenproductions/templates/actions/wedding.tpl.html',
-      1 => 1375356451,
+      1 => 1375429609,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '1585751fa4b570fe886-34318993',
+  'nocache_hash' => '2662551fb6492202058-62367935',
   'function' => 
   array (
   ),
@@ -23,8 +23,8 @@ $_smarty_tpl->decodeProperties(array (
 					<hgroup id="page-title">
 						<h2>Portfolio</h2>
 						<nav class="breadcrumb">
-							<a href="<?php echo $_smarty_tpl->getVariable('applicationPath')->value;?>
-">Home</a>&rsaquo;
+							<a href="<?php echo $_smarty_tpl->getVariable('SiteData')->value['urls']['site']['homepage'];?>
+">Home</a> &rsaquo;
 							<a href="<?php echo $_smarty_tpl->getVariable('SiteData')->value['urls']['site']['portfolio'];?>
 ">Portfolio</a> &rsaquo;
 							<span >Wedding</span>
