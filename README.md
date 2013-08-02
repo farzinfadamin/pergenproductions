@@ -14,15 +14,3 @@ git commit -m "Revert to 56e05fced"
 
 # Update working copy to reflect the new commit
 git reset --hard
-
-
-
-Pergen Productions Accounts and Credentials
---------------
-
-1.  **ftp Account**
- - ftp.pergenproductions.com
- - User: pergen
- - Pass: 
-
-
