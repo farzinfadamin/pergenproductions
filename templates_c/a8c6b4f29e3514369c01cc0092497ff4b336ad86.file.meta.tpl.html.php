@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.0.6, created on 2013-08-02 04:16:11
+<?php /* Smarty version Smarty-3.0.6, created on 2013-08-02 04:30:17
          compiled from "D:\wamp\www\GitHub\pergenproductions/templates/_settings/meta.tpl.html" */ ?>
-<?php /*%%SmartyHeaderCode:623951fb6acb8f6b48-53644104%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:1668851fb6e196b0ae7-07893984%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'a8c6b4f29e3514369c01cc0092497ff4b336ad86' => 
     array (
       0 => 'D:\\wamp\\www\\GitHub\\pergenproductions/templates/_settings/meta.tpl.html',
-      1 => 1375431360,
+      1 => 1375432216,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '623951fb6acb8f6b48-53644104',
+  'nocache_hash' => '1668851fb6e196b0ae7-07893984',
   'function' => 
   array (
   ),
@@ -31,7 +31,7 @@ $_smarty_tpl->decodeProperties(array (
 <link rel="shortcut icon" type=image/x-icon href="/favicon.ico" />
 <link rel=icon type=image/ico href="./favicon.ico" />
 <meta name="apple-mobile-web-app-capable" content="yes" />
-<link rel="shortlink" href="goo.gl/Z2DKI">
+<link rel="shortlink" href="http://goo.gl/vNUZ3i">
 <link rel="pingback" href="http://pergenproductions.com?action=pingback" />
 <link rel="author" href="/humans.txt" />
 <meta name="dcterms.title" content="" /> 	
@@ -39,8 +39,8 @@ $_smarty_tpl->decodeProperties(array (
 <meta name="dcterms.dateCopyrighted" content="Copyright 2012" /> 
 <meta name="dc.language" content="en" />
 <meta name="robots" content="index, follow" />	 
-<meta name="google-site-verification" content="6H4rD74ISZdIVRtfLENaSYGVZtzMElFmu7ZkDzjZ3kg" /> 
-<meta name="msvalidate.01" content="E05CA15F3746E64B05BB7716F3FFA33A" />
+<meta name="google-site-verification" content="" /> 
+<meta name="msvalidate.01" content="" />
 <meta name="y_key" content="" />
 <link rel="canonical" href="<?php echo $_smarty_tpl->getVariable('pagePath')->value;?>
 " />
