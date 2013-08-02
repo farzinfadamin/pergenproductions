@@ -30,7 +30,7 @@
 			$globalUrls["tel_number"] = "202-596-2542";
 			$globalUrls["fax_number"] = "703-542-1274";
 			$globalUrls["address"] = "8206 Leesburg Pike, Suite 209, Vienna, VA 22182";
-			$globalUrls["email"] = "arshia@pergenproduction.com";
+			$globalUrls["email"] = "arshia@pergenproductions.com";
 			
 			$this->results = array(
 				"site" 		=> $siteUrls,
