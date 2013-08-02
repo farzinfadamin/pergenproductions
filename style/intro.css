@@ -1,0 +1,75 @@
+/*   INTRO
+=================*/
+
+.intro-page {
+	background: #050504 url("images/general/bg-intro.jpg") no-repeat center center;
+	height: 641px;
+	position: relative;
+}
+
+.intro-page #wrapper {
+	width: 1000px;
+}
+
+.intro-page h1{
+	text-indent: -9999px;
+	background: transparent url("images/general/bg-transparent-black2.png") repeat;
+	text-align: center;
+	width: 100%;
+	padding: 20px 0;
+	top: 245px;
+	position: absolute;
+	left: 0;
+}
+
+.intro-page h1 span {
+	background: transparent url("images/general/logo-pergen-intro.png") no-repeat;
+	width: 387px;
+	height: 95px;
+	margin: 0 auto;
+	display: block;
+}
+
+.intro-page2 h1 span {
+	float: right;
+	margin-right: 100px;
+}
+
+.intro-page div {
+	position: absolute;
+	top: 410px;
+	left: 0;
+	width: 100%;
+	text-align: center;
+}
+
+.intro-page a {
+	margin: 0 auto;
+	background: transparent url("images/general/ttl-enter.png") no-repeat;
+	width: 199px;
+	height: 15px;
+	text-indent: -9999px;
+	display: block;
+	-webkit-transition: background 0.15s ease 0s;
+	-moz-transition: background 0.15s ease 0s;
+	-o-transition: background 0.15s ease 0s;
+	transition: background 0.15s ease 0s;
+}
+
+.intro-page a:hover {
+	background-position: 0 bottom;	
+}
+
+.intro-page2 a { 
+	float: right;
+	margin-right: 100px;
+}
+
+.intro-page .dj-pic {
+	background: transparent url("images/general/pic-dj.png") no-repeat;
+	width: 900px;
+	height: 668px;
+	position: absolute;
+	top: 0;
+	left: -235px;
+}

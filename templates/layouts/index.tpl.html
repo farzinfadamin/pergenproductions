@@ -32,16 +32,22 @@
 <!--{include file = $settingsTemplate|cat:"JavaScriptActionInfo.tpl.html"}-->
 <!--{/if}-->
 </head>
-<body role='document'>
+<body role='document' <!--{if $action eq "intro"}-->class="intro-page"<!--{/if}-->>
 	<section id="wrapper">
+	<!--{if $action neq "intro"}-->
 	<!--{include file = $includeTemplate|cat:"header.tpl.html"}-->
-
+	<!--{/if}-->
+	
 	<!--{if $action eq "homepage"}-->
 	<!--{include file= $includeTemplate|cat:"home-slideshow.tpl.html"}-->
 	<!--{/if}-->
 	
 	<!--{include file = $activeAction}-->
+	
+	<!--{if $action neq "intro"}-->
 	<!--{include file = $includeTemplate|cat:"footer.tpl.html"}-->
+	<!--{/if}-->
+	
 	</section> <!-- end of WRAPPER section-->
 <!--{include file = $includeTemplate|cat:"jsTemplates/default.tpl.html"}-->	
 <!--{if $javascriptBottomPage eq true}-->

@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.0.6, created on 2013-08-01 07:16:50
+<?php /* Smarty version Smarty-3.0.6, created on 2013-08-02 03:43:52
          compiled from "D:\wamp\www\GitHub\pergenproductions/templates/layouts/index.tpl.html" */ ?>
-<?php /*%%SmartyHeaderCode:79651fa43a2f27152-26057484%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:2228351fb633843bd21-82848658%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '0afca16668abc1d2e1c4f8ecb0592223af6de159' => 
     array (
       0 => 'D:\\wamp\\www\\GitHub\\pergenproductions/templates/layouts/index.tpl.html',
-      1 => 1375355808,
+      1 => 1375429429,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '79651fa43a2f27152-26057484',
+  'nocache_hash' => '2228351fb633843bd21-82848658',
   'function' => 
   array (
   ),
@@ -57,11 +57,13 @@ modernizr/modernizr-2.6.1.min.js"></script>
  echo $_template->getRenderedTemplate();?><?php $_template->updateParentVariables(0);?><?php unset($_template);?>
 <?php }?>
 </head>
-<body role='document'>
+<body role='document' <?php if ($_smarty_tpl->getVariable('action')->value=="intro"){?>class="intro-page"<?php }?>>
 	<section id="wrapper">
+	<?php if ($_smarty_tpl->getVariable('action')->value!="intro"){?>
 	<?php $_template = new Smarty_Internal_Template(($_smarty_tpl->getVariable('includeTemplate')->value).("header.tpl.html"), $_smarty_tpl->smarty, $_smarty_tpl, $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null);
  echo $_template->getRenderedTemplate();?><?php $_template->updateParentVariables(0);?><?php unset($_template);?>
-
+	<?php }?>
+	
 	<?php if ($_smarty_tpl->getVariable('action')->value=="homepage"){?>
 	<?php $_template = new Smarty_Internal_Template(($_smarty_tpl->getVariable('includeTemplate')->value).("home-slideshow.tpl.html"), $_smarty_tpl->smarty, $_smarty_tpl, $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null);
  echo $_template->getRenderedTemplate();?><?php $_template->updateParentVariables(0);?><?php unset($_template);?>
@@ -69,8 +71,12 @@ modernizr/modernizr-2.6.1.min.js"></script>
 	
 	<?php $_template = new Smarty_Internal_Template($_smarty_tpl->getVariable('activeAction')->value, $_smarty_tpl->smarty, $_smarty_tpl, $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null);
  echo $_template->getRenderedTemplate();?><?php $_template->updateParentVariables(0);?><?php unset($_template);?>
+	
+	<?php if ($_smarty_tpl->getVariable('action')->value!="intro"){?>
 	<?php $_template = new Smarty_Internal_Template(($_smarty_tpl->getVariable('includeTemplate')->value).("footer.tpl.html"), $_smarty_tpl->smarty, $_smarty_tpl, $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null);
  echo $_template->getRenderedTemplate();?><?php $_template->updateParentVariables(0);?><?php unset($_template);?>
+	<?php }?>
+	
 	</section> <!-- end of WRAPPER section-->
 <?php $_template = new Smarty_Internal_Template(($_smarty_tpl->getVariable('includeTemplate')->value).("jsTemplates/default.tpl.html"), $_smarty_tpl->smarty, $_smarty_tpl, $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null);
  echo $_template->getRenderedTemplate();?><?php $_template->updateParentVariables(0);?><?php unset($_template);?>	
