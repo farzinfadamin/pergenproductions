@@ -8,13 +8,14 @@
 
 .gallery-list li{
 	width: 250px;
-	height: 180px;
+	height: 185px;
 	float: left;
 	margin: 80px 24px 0;
 }
 
 .gallery-list li a{
 	position: relative;
+	overflow: hidden;
 	width: 250px;
 	height: 185px;
 	padding: 7px;
@@ -26,6 +27,12 @@
 	-moz-transition: all 0.12s ease 0s;
 	-o-transition: all 0.12s ease 0s;
 	transition: all 0.12s ease 0s;
+}
+
+.gallery-list li a img{
+	width: 250px;
+	height: 185px;
+	display: block;
 }
 
 .gallery-list a h3{

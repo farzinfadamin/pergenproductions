@@ -1,6 +1,12 @@
 $(document).ready(function(){
+	
+	enableFancyBox();
 
-	$(".fancybox").fancybox({
+});
+
+function enableFancyBox(){
+
+	$('a[data-fancybox-group]').fancybox({
 		padding 		: 0,
 		openEffect		: 'elastic',
 		openOpacity 	: 'true',
@@ -17,8 +23,8 @@ $(document).ready(function(){
 			thumbs	: {
 				width	: 80,
 				height	: 50
-			}
+			},
+			media : {}
 		}
 	});
-
-});
+}

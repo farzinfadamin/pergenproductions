@@ -24,6 +24,7 @@
 			$siteUrls["services_cultural"] = LiteFrame::BuildActionUrl( "services-cultural" );
 			$siteUrls["portfolio"] = LiteFrame::BuildActionUrl( "portfolio" );
 			$siteUrls["portfolio_wedding"] = LiteFrame::BuildActionUrl( "portfolio-wedding" );
+			$siteUrls["portfolio_birthday"] = LiteFrame::BuildActionUrl( "portfolio-birthday" );
 			$siteUrls["events"] = LiteFrame::BuildActionUrl( "events" );
 			
 			$external = array();

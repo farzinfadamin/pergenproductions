@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.0.6, created on 2013-08-02 04:51:56
+<?php /* Smarty version Smarty-3.0.6, created on 2013-08-04 12:58:57
          compiled from "D:\wamp\www\GitHub\pergenproductions/templates/actions/about.tpl.html" */ ?>
 <?php /*%%SmartyHeaderCode:337051fb732c68ecb7-49139825%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_smarty_tpl->decodeProperties(array (
     '19cab1eb60d8ac897d053e8990ee25eb8c060176' => 
     array (
       0 => 'D:\\wamp\\www\\GitHub\\pergenproductions/templates/actions/about.tpl.html',
-      1 => 1375433159,
+      1 => 1375435001,
       2 => 'file',
     ),
   ),
@@ -28,7 +28,7 @@ $_smarty_tpl->decodeProperties(array (
 							<span>About Us</span>
 						</nav>
 					</hgroup>
-					<section class="about-content">
+					<section class="inner-content">
 						<h3>Who We Are?</h3>
 						<p>Pergen Productions is a event-planning company that provides services in the DC Metro and Greater Fairfax area out of our main office in Vienna, Virginia. Since the company's start-up in 2004, we've continued to provide clients with a wide assortment of event-planning options, whether it's for a birthday party, cultural event, company conference, wedding and many other types of events as well.</p>
 						<h3>What We do?</h3>
