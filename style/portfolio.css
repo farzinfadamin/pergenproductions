@@ -15,7 +15,6 @@
 
 .gallery-list li a{
 	position: relative;
-	overflow: hidden;
 	width: 250px;
 	height: 185px;
 	padding: 7px;
