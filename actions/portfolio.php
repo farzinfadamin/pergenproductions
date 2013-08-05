@@ -4,7 +4,7 @@
 	class LiteFrameAction{
 		
 		public function __construct(){
-			$site = new Site("Homepage");
+			$site = new Site("Portfolio");
 
 		}
 		

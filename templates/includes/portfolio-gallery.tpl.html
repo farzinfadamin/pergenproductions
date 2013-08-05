@@ -1,77 +1,30 @@
 <section class="content-section">
-			<section class="box clearfix">
-				<div class="wp">
-					<hgroup id="page-title">
-						<h2>Portfolio</h2>
-						<nav class="breadcrumb">
-							<a href="<!--{$SiteData.urls.site.homepage}-->">Home</a> &rsaquo;
-							<a href="<!--{$SiteData.urls.site.portfolio}-->">Portfolio</a> &rsaquo;
-							<span >Wedding</span>
-						</nav>
-					</hgroup>
-					<section class="portfolio-content portfolio-image-list">
-						<ul class="gallery-list">
-							<!--{foreach from=$SiteData.portfolio.images key=k item=image}-->
-							<li>
-								<a href="<!--{$image.url}-->" data-fancybox-group="thumb" class="loading">
-									<span></span>
-									<img src="<!--{$image.url}-->" width="268" height="182" />
-								</a>
-							</li>
-							<!--{/foreach}-->
-						</ul>
-					</section>
-				</div>
+	<section class="box clearfix">
+		<div class="wp">
+			<hgroup id="page-title">
+				<h2>Wedding</h2>
+				<nav class="breadcrumb">					
+					<!--{foreach from=$SiteData.portfolio.breadcrumb key=k item=bread name=bread}-->
+					<!--{if $bread.active}-->
+					<a href="<!--{$bread.url}-->"><!--{$bread.title}--></a><!--{if !$smarty.foreach.bread.last}--> &rsaquo; <!--{/if}-->
+					<!--{else}-->
+					<span><!--{$bread.title}--><!--{if !$smarty.foreach.bread.last}--> &rsaquo; <!--{/if}--></span>
+					<!--{/if}-->
+					<!--{/foreach}-->
+				</nav>
+			</hgroup>
+			<section class="portfolio-content portfolio-image-list">
+				<ul class="gallery-list">				
+					<!--{foreach from=$SiteData.portfolio.images key=k item=image}-->
+					<li>
+						<a href="<!--{$image.url}-->" data-fancybox-group="group" class="fancybox">
+							<img src="<!--{$image.url}-->" />
+							<span></span>
+						</a>
+					</li>
+					<!--{/foreach}-->						
+				</ul>
 			</section>
-		</section> <!-- end of CONTENT section-->
-<!--{*
-
-
-<section class="content-section clearfix">
-	<header class="has-sub-category">
-		<hgroup>
-			<h2 data-link="<!--{$applicationPath}-->?action=portfolio">Portfolio</h2>
-		</hgroup>
-		<nav class="breadcrumb">
-			<!--{foreach from=$SiteData.portfolio.breadcrumb key=k item=bread name=bread}-->
-			<!--{if $bread.active}-->
-			<a href="<!--{$bread.url}-->"><!--{$bread.title}--></a><!--{if !$smarty.foreach.bread.last}--> &rsaquo; <!--{/if}-->
-			<!--{else}-->
-			<span><!--{$bread.title}--><!--{if !$smarty.foreach.bread.last}--> &rsaquo; <!--{/if}--></span>
-			<!--{/if}-->
-			<!--{/foreach}-->
-		</nav>
-	</header>
-	<nav class="sub-category">
-		<ul>
-		<!--{foreach from=$SiteData.portfolio.subCats item=subCat name=subCat}-->
-		<li<!--{if $subCat.active}--> class="active"<!--{/if}-->><a href="<!--{$subCat.url}-->"><!--{$subCat.title}--></a></li>
-		<!--{/foreach}-->
-		</ul>
-	</nav>
-	<section class="content-box">
-		<ul class="portfolio-gallery-list">
-			<!--{foreach from=$SiteData.portfolio.images key=k item=image}-->
-			<li<!--{if $k % 3 eq 2}--> class="no-margin"<!--{/if}-->>
-				<a href="<!--{$image.url}-->" data-fancybox-group="thumb" class="loading">
-					<span></span>
-					<img src="<!--{$image.url}-->" width="268" height="182" />
-				</a>
-			</li>
-			<!--{/foreach}-->		
-		</ul>
-		<footer class="content-footer">	
-			<nav class="pagination">
-				<!--{for $pageNumber=1 to $SiteData.portfolio.total}-->
-				   <!--{if $pageNumber eq $SiteData.portfolio.pageId}-->
-				   <span><!--{$pageNumber}--></span>
-				   <!--{else}-->
-				   <a href="<!--{$SiteData.portfolio.paginationUrl}-->&pageId=<!--{$pageNumber}-->"><!--{$pageNumber}--></a>
-				   <!--{/if}-->
-				<!--{/for}-->
-			</nav>
-		</footer>
+		</div>
 	</section>
 </section> <!-- end of CONTENT section-->
-
-*}-->

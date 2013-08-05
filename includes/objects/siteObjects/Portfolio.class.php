@@ -22,105 +22,8 @@
 			         )
 			     )
 			 );
-/*
-			$portfolios[] = array(
-			     "id" => "millwork",
-			     "title" => "Millwork",
-			     "desc" => "Click here to browse and experience the most magnificent Millword photo gallery built and developed by Goal Construction.",
-			     "image-cats" => array(
-			         "library" => array(
-			             "title" => "Library",
-			             "size" => 17
-			         ),
-			         "home-office" => array(
-			             "title" => "Home Office",
-			             "size" => 14
-			         ),
-			         "wine-rack" => array(
-			             "title" => "Wine Rack",
-			             "size" => 31
-			         ),
-			         "book-case" => array(
-			             "title" => "Bookcase",
-			             "size" => 51
-			         ),
-			         "mantel" => array(
-			             "title" => "Mantel",
-			             "size" => 33
-			         ),
-			         "billiard-room" => array(
-			             "title" => "Billiard Room",
-			             "size" => 6
-			         ),
-			         "others" => array(
-			             "title" => "Others",
-			             "size" => 11
-			         )
-			     )
-			 );
-
-			$portfolios[] = array(
-			     "id" => "interior-trim",
-			     "title" => "Interior Trim",
-			     "desc" => "Click here to browse and experience the most magnificent Interior Trim photo gallery built and developed by Goal Construction.",
-			     "image-cats" => array(
-			         "case-opening" => array(
-			             "title" => "Case Opening",
-			             "size" => 72
-			         ),
-			         "crown" => array(
-			             "title" => "Crown",
-			             "size" => 31
-			         ),
-			         "chair-rail" => array(
-			             "title" => "Chair Rail",
-			             "size" => 30
-			         ),
-			         "wall" => array(
-			             "title" => "Wall",
-			             "size" => 70
-			         ),
-			         "ceiling" => array(
-			             "title" => "Ceiling",
-			             "size" => 40
-			         ),
-			         "window" => array(
-			             "title" => "Window",
-			             "size" => 41
-			         ),
-			         "door" => array(
-			             "title" => "Door",
-			             "size" => 20
-			         )
-			     )
-			 );
-			
-			 $portfolios[] = array(
-			     "id" => "cabinet",
-			     "title" => "Cabinet",
-			     "desc" =>  "Click here to browse and experience the most magnificent Cabinet photo gallery built and developed by Goal Construction.",
-			     "image-cats" => array(
-			         "kitchen" => array(
-			             "title" => "Kitchen",
-			             "size" => 74
-			         ),
-			         "wet-bar" => array(
-			             "title" => "Wet Bar",
-			             "size" => 11
-			         ),
-			         "vanity" => array(
-			             "title" => "Vanity",
-			             "size" => 3
-			         ),
-			         "commercial" => array(
-			             "title" => "Commercial",
-			             "size" => 23
-			         )
-			     )
-			 );
-			
-			*/
-
+			 
+			 
 			$vars = LiteFrame::FetchGetVariable();
 			if(isset($vars['catId'])){
 				$subCats = array();
@@ -243,10 +146,6 @@
 
 				$this->results = array("cats"=>$cats, "gallery"=>false, "pageId"=>$pageId, "total"=> $total,"paginationUrl"=>LiteFrame::BuildActionUrl());
 			}
-
 		}
-
 	}
-
-
 ?>

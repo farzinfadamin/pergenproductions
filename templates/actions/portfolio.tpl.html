@@ -1,83 +1,29 @@
+<!--{if $SiteData.portfolio.gallery}-->
+	<!--{include file= $includeTemplate|cat:"portfolio-gallery.tpl.html"}-->
+<!--{else}-->
 <section class="content-section">
-			<section class="box clearfix">
-				<div class="wp">
-					<hgroup id="page-title">
-						<h2>Portfolio</h2>
-						<nav class="breadcrumb">
-							<a href="<!--{$SiteData.urls.site.homepage}-->">Home</a> &rsaquo;
-							<span >Portfolio</span>
-						</nav>
-					</hgroup>
-					<section class="portfolio-content">
-						<ul class="gallery-list">
-							<li>
-								<a href="<!--{$SiteData.urls.site.portfolio_wedding}-->">
-									<h3><span>Wedding</span></h3>
-									<img src="<!--{$imagePath}-->portfolio/wedding/cat-wedding.jpg" alt="Wedding Category">
-								</a>
-							</li>
-							<li>
-								<a href="">
-									<h3><span>Decoration and Sofreh</span></h3>
-									<img src="<!--{$imagePath}-->portfolio/decoration/cat-decoration.jpg" alt="Decoration and Sofreh Category">
-								</a>
-							</li>
-							<li>
-								<a href="javascript:void(0)">
-									<h3><span>Outdoor Event</span></h3>
-									<img src="<!--{$imagePath}-->portfolio/outdoor-events/cat-outdoor-events.jpg" alt="Outdoor Events Category">
-								</a>
-							</li>
-							<li>
-								<a href="javascript:void(0)">
-									<h3><span>Public Events</span></h3>
-									<img src="<!--{$imagePath}-->portfolio/public-events/cat-public-events.jpg" alt="Public Events Category">
-								</a>
-							</li>
-							<li>
-								<a href="javascript:void(0)">
-									<h3><span>Staff</span></h3>
-									<img src="<!--{$imagePath}-->portfolio/staff/cat-staff.jpg" alt="Staff Category">
-								</a>
-							</li>
-							<li>
-								<a href="<!--{$SiteData.urls.site.portfolio_birthday}-->">
-									<h3><span>Birthday</span></h3>
-									<img src="<!--{$imagePath}-->portfolio/birthday/cat-birthday.jpg" alt="Birthday Category">
-								</a>
-							</li>
-							<li>
-								<a href="javascript:void(0)">
-									<h3><span>Concert</span></h3>
-									<img src="<!--{$imagePath}-->portfolio/concert/cat-concert.jpg" alt="Concert Category">
-								</a>
-							</li>
-							<li>
-								<a href="javascript:void(0)">
-									<h3><span>Co. Meeting, Gathering, Party</span></h3>
-									<img src="<!--{$imagePath}-->portfolio/corporate-events/cat-corporate-events.jpg" alt="Corporate Events Category">
-								</a>
-							</li>
-							<li>
-								<a href="javascript:void(0)">
-									<h3><span>Holiday and Cultural Events</span></h3>
-									<img src="<!--{$imagePath}-->portfolio/holidays/cat-holidays.jpg" alt="Holiday and Cultural Events Category">
-								</a>
-							</li>
-							<li>
-								<a href="javascript:void(0)">
-									<h3><span>Sound System</span></h3>
-									<img src="<!--{$imagePath}-->portfolio/sound/cat-sound.jpg" alt="Sound System Category">
-								</a>
-							</li>
-							<li>
-								<a href="javascript:void(0)">
-									<h3><span>Lighting</span></h3>
-									<img src="<!--{$imagePath}-->portfolio/lighting/cat-lighting.jpg" alt="Lighting Category">
-								</a>
-							</li>
-						</ul>
-					</section>
-				</div>
+	<section class="box clearfix">
+		<div class="wp">
+			<hgroup id="page-title">
+				<h2>Portfolio</h2>
+				<nav class="breadcrumb">
+					<a href="<!--{$SiteData.urls.site.homepage}-->">Home</a> &rsaquo;
+					<span >Portfolio</span>
+				</nav>
+			</hgroup>
+			<section class="portfolio-content">
+				<ul class="gallery-list">
+				<!--{foreach from=$SiteData.portfolio.cats key=k item=cat name=cat}-->
+					<li>
+	                   <a href="<!--{$cat.url}-->">
+	                   		<h3><span><!--{$cat.title}--></span></h3>
+	                   		<img src="<!--{$cat.imageUrl}-->" alt="<!--{$cat.title}-->">
+	                   </a>
+                   </li>
+				<!--{/foreach}-->
+				</ul>				
 			</section>
-		</section> <!-- end of CONTENT section-->
+		</div>
+	</section>
+</section> <!-- end of CONTENT section-->				
+<!--{/if}-->
