@@ -22,6 +22,10 @@ class SiteSettings {
 	public function setCoreJavascript(){
 		LiteFrame::IncludeJavascript('default.js');
 		
+		if( LiteFrame::getActiveAction() === 'homepage'){
+			LiteFrame::IncludeLibraryJavascript('plugins/jquery.carousel.js');
+		}
+		
 		if( LiteFrame::getActiveAction() === 'portfolio'){
 			LiteFrame::IncludeLibraryJavascript('fancybox/lib/jquery.mousewheel-3.0.6.pack.js');
 			LiteFrame::IncludeLibraryJavascript('fancybox/source/jquery.fancybox.pack.js');

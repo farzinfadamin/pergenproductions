@@ -44,6 +44,12 @@
 	background-position: left bottom;
 }
 
+#slide-show nav{
+	width: 936px;
+	height: 338px;
+	overflow: hidden;
+}
+
 #slide-picture {
 	width: 936px;
 	height: 338px;
@@ -55,6 +61,7 @@
 	width: 936px;
 	height: 338px;
 	position: relative;
+	margin-right: 7px;
 }
 
 #slide-picture .slide-description {
