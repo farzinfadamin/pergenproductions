@@ -112,8 +112,7 @@
 				if(!$catActive){
 					$breadcrumb[] = array("title"=> $subCatTitle, "active"=>$catActive);
 				}
-				$this->results = array("gallery"=>true,"subCats"=> $subCats, "images" => $images, "pageId"=>$pageId, "total"=> $total,"paginationUrl"=>$currentUrl,"breadcrumb"=>$breadcrumb);
-
+				$this->results = array("gallery"=>true,"subCats"=> $subCats, "images" => $images, "pageId"=>$pageId, "total"=> $total,"paginationUrl"=>$currentUrl,"breadcrumb"=>$breadcrumb,"title"=>$catTitle);
 			}else{	
 				$cats = array();
 
