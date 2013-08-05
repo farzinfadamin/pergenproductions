@@ -220,8 +220,12 @@
 				$start = $pagesize * ($pageId-1);
 				$total = ceil(count($images) / $pagesize);
 				$images = array_slice($images, $start, $pagesize);
-
-
+	
+				foreach($images as $key => $image){
+					
+					$images[$key]["thumb"] = preg_replace("/\.jpg/", "_.jpg", $image["url"]);
+				}
+				
 				$breadcrumb = array(
 					array("title"=>"Home","active"=>true,"url"=>LiteFrame::GetApplicationPath()),
 					array("title"=>"Portfolio","active"=>true,"url"=>LiteFrame::BuildActionUrl("portfolio"))					
