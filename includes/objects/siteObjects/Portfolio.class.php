@@ -90,7 +90,7 @@
 			     "image-cats" => array(
 			         "-1" => array(
 			             "title" => "Lighting and Effects",
-			             "size" => 64
+			             "size" => 74
 			         )
 			     )
 			 );
