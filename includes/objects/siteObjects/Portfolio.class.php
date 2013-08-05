@@ -42,7 +42,7 @@
 			     "image-cats" => array(
 			         "-1" => array(
 			             "title" => "Concerts",
-			             "size" => 2
+			             "size" => 1
 			         )
 			     )
 			 );
@@ -78,7 +78,7 @@
 			     "image-cats" => array(
 			         "-1" => array(
 			             "title" => "Holiday and Cultural Events",
-			             "size" => 3
+			             "size" => 10
 			         )
 			     )
 			 );
