@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.0.6, created on 2013-08-02 05:37:45
+<?php /* Smarty version Smarty-3.0.6, created on 2013-08-05 10:01:38
          compiled from "D:\wamp\www\GitHub\pergenproductions/templates/actions/services.tpl.html" */ ?>
-<?php /*%%SmartyHeaderCode:2504651fb7de91e2b82-65554159%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:131151ffb042a5ad87-72330380%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '7fbccfcd414325b56cf145cdb515b8f22fd2daf6' => 
     array (
       0 => 'D:\\wamp\\www\\GitHub\\pergenproductions/templates/actions/services.tpl.html',
-      1 => 1375436261,
+      1 => 1375711298,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '2504651fb7de91e2b82-65554159',
+  'nocache_hash' => '131151ffb042a5ad87-72330380',
   'function' => 
   array (
   ),
@@ -44,31 +44,49 @@ services/service-entertainment.jpg" alt="Entertainment Service" ></figure>
 "><strong>Concert</strong></a></li>
 								<li><a href="<?php echo $_smarty_tpl->getVariable('SiteData')->value['urls']['site']['services_corporate'];?>
 "><strong>Corporate</strong></a> Meeting, Gathering, Party</li>
-								<li><strong>Holiday</strong> Events</li>
+								<li><a href="<?php echo $_smarty_tpl->getVariable('SiteData')->value['urls']['site']['services_outdoor'];?>
+"><strong>Outdoor Events</strong></a></li>
 								<li><a href="<?php echo $_smarty_tpl->getVariable('SiteData')->value['urls']['site']['services_cultural'];?>
-"><strong>Cultural</strong></a> Events</li>
+"><strong>Cultural Events</strong></a></li>
+								<li><a href="<?php echo $_smarty_tpl->getVariable('SiteData')->value['urls']['site']['services_livePerformance'];?>
+"><strong>Live Performance:</strong></a> Singer, Percussion, and Dance</li>
+								<li><a href="<?php echo $_smarty_tpl->getVariable('SiteData')->value['urls']['site']['services_DJs'];?>
+"><strong>Nominated DJs and MCs</strong></a></li>
 							</ul>
-							<div class="services-btn"><a href="javascript:void(0)"><span>Entertainment Gallery</span></a></div>
 						</section>
 						<section class="service-rental">
 							<figure><img src="<?php echo $_smarty_tpl->getVariable('imagePath')->value;?>
 services/service-rental.jpg" alt="Rental Service" ></figure>
-							<h3>Rental</h3>
+							<h3>Equipments and Staff</h3>
 							<ul class="bullet-list">
-								<li><strong>Sound System including:</strong> DJ setup, Speakers, Sound Woofers, wired/wireless microphones, Indoor/Outdoor Sounds</li>
-								<li><strong>Lighting including:</strong> Disco, Wash Light, Ambient Lighting, Indoor/Outdoor Lighting</li>
+								<li><a href="<?php echo $_smarty_tpl->getVariable('SiteData')->value['urls']['site']['services_screens'];?>
+"><strong>Video players, Projectors and Screens</strong></a></li>
+								<li><a href="<?php echo $_smarty_tpl->getVariable('SiteData')->value['urls']['site']['services_ledLightingControl'];?>
+"><strong>Intelligent LED Lighting Control System</strong></a></li>
+								<li><a href="<?php echo $_smarty_tpl->getVariable('SiteData')->value['urls']['site']['services_ledMovingHead'];?>
+"><strong>Intelligent LED Moving Head Lighting</strong></a></li>
+								<li><a href="<?php echo $_smarty_tpl->getVariable('SiteData')->value['urls']['site']['services_ledPinSpot'];?>
+"><strong>LED Pin-Spot Lighting</strong></a></li>
+								<li><a href="<?php echo $_smarty_tpl->getVariable('SiteData')->value['urls']['site']['services_ledWashUplighting'];?>
+"><strong>LED Wash Uplighting</strong></a></li>
 								<li><strong>Staff</strong> to run your parties</li>
 							</ul>
-							<div class="services-btn"><a href="javascript:void(0)"><span>Lighting &amp; Sound Gallery</span></a></div>
 						</section>
-						<section class="service-consulting last">
+						<section class="service-consulting">
 							<figure><img src="<?php echo $_smarty_tpl->getVariable('imagePath')->value;?>
 services/service-consulting.jpg" alt="Event Consulting" ></figure>
 							<h3>Event Consulting</h3>
 							<p>Entrust all your concerns to PerGen Production while we plan and organize your dream wedding, important corporate event, birthdays, anniversaries, showers, or any occasion that requires a professional touch to ensure things go just the way you planned.</p>
 							<p>We are a professional event management firm with immense experience and expertise to overcome all the concerns you may have in planning and organizing any function or event in a manner you wish to execute it with the finest details in order.</p>
 							<p>We let you be free of worries and concerns that could shroud your thoughts while hosting an event. While you enjoy an important moment in your life we ensure everything is planned and organized just the way you desire.</p>
-							<div class="services-btn"><a href="javascript:void(0)"><span>Get Started</span></a></div>
+						</section>
+						<section class="service-online-planner last">
+							<figure><img src="<?php echo $_smarty_tpl->getVariable('imagePath')->value;?>
+services/service-online-planner.jpg" alt="Online Planner Account" ></figure>
+							<h3>Online Planner Account</h3>
+							<p>The multiple aspects of planning an event, whether it's a 70th birthday party, a company outing or high-school graduation party can seem overwhelming at times, but luckily Pergen Productions has the perfect solution to all of your micro-managing planning needs.
+							<p>Our clients in addition to receiving first-class event planning consultation from industry professionals will also have access to our exclusive online planner resources for all of their planning needs that require personal attention. <a href="<?php echo $_smarty_tpl->getVariable('SiteData')->value['urls']['site']['services_onlinePlanner'];?>
+">(Read more)</a></p>
 						</section>
 					</section>
 				</div>

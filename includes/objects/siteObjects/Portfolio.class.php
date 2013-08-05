@@ -14,14 +14,135 @@
 			$portfolios[] = array(
 			     "id" => "wedding",
 			     "title" => "Wedding",
-			     "desc" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in pretium neque. Morbi mollis condimentum urna, vitae aliquet dui ornare.",
+			     "desc" => "",
 			     "image-cats" => array(
 			         "-1" => array(
 			             "title" => "Wedding",
+			             "size" => 11
+			         )
+			     )
+			 );
+			 
+			 $portfolios[] = array(
+			     "id" => "birthday",
+			     "title" => "Birthday and Sweet 16th",
+			     "desc" => "",
+			     "image-cats" => array(
+			         "-1" => array(
+			             "title" => "Birthday and Sweet 16th",
+			             "size" => 4
+			         )
+			     )
+			 );
+			 
+			 $portfolios[] = array(
+			     "id" => "concert",
+			     "title" => "Concerts",
+			     "desc" => "",
+			     "image-cats" => array(
+			         "-1" => array(
+			             "title" => "Concerts",
+			             "size" => 2
+			         )
+			     )
+			 );
+			 /*
+			 $portfolios[] = array(
+			     "id" => "corporate-events",
+			     "title" => "Corporate Events",
+			     "desc" => "",
+			     "image-cats" => array(
+			         "-1" => array(
+			             "title" => "Corporate Events",
+			             "size" => 3
+			         )
+			     )
+			 );
+			 */
+			 $portfolios[] = array(
+			     "id" => "decoration",
+			     "title" => "Decoration and Sofreh",
+			     "desc" => "",
+			     "image-cats" => array(
+			         "-1" => array(
+			             "title" => "Decoration and Sofreh",
+			             "size" => 38
+			         )
+			     )
+			 );
+			 
+			 $portfolios[] = array(
+			     "id" => "holidays",
+			     "title" => "Holiday and Cultural Events",
+			     "desc" => "",
+			     "image-cats" => array(
+			         "-1" => array(
+			             "title" => "Holiday and Cultural Events",
+			             "size" => 3
+			         )
+			     )
+			 );
+			 
+			 $portfolios[] = array(
+			     "id" => "lighting",
+			     "title" => "Lighting and Effects",
+			     "desc" => "",
+			     "image-cats" => array(
+			         "-1" => array(
+			             "title" => "Lighting and Effects",
+			             "size" => 64
+			         )
+			     )
+			 );
+			 
+			 $portfolios[] = array(
+			     "id" => "outdoor-events",
+			     "title" => "Outdoor Events",
+			     "desc" => "",
+			     "image-cats" => array(
+			         "-1" => array(
+			             "title" => "Outdoor Events",
+			             "size" => 10
+			         )
+			     )
+			 );
+			 
+			 $portfolios[] = array(
+			     "id" => "public-events",
+			     "title" => "Club Parties and Public Events",
+			     "desc" => "",
+			     "image-cats" => array(
+			         "-1" => array(
+			             "title" => "Club Parties and Public Events",
+			             "size" => 4
+			         )
+			     )
+			 );
+			 
+			 $portfolios[] = array(
+			     "id" => "sound",
+			     "title" => "Sound System and Equipment",
+			     "desc" => "",
+			     "image-cats" => array(
+			         "-1" => array(
+			             "title" => "Sound System and Equipment",
+			             "size" => 8
+			         )
+			     )
+			 );
+			 
+			 $portfolios[] = array(
+			     "id" => "staff",
+			     "title" => "Staff",
+			     "desc" => "",
+			     "image-cats" => array(
+			         "-1" => array(
+			             "title" => "Staff",
 			             "size" => 19
 			         )
 			     )
 			 );
+
 			 
 			 
 			$vars = LiteFrame::FetchGetVariable();
@@ -85,7 +206,7 @@
 
 
 
-				$pagesize = 9;
+				$pagesize = 100;
 				$pageId = 1;
 				if(isset($vars['pageId'])){
 					$pageId = $vars['pageId'];				
@@ -105,8 +226,8 @@
 					array("title"=>"Home","active"=>true,"url"=>LiteFrame::GetApplicationPath()),
 					array("title"=>"Portfolio","active"=>true,"url"=>LiteFrame::BuildActionUrl("portfolio"))					
 				);
-
-
+				
+				
 				$breadcrumb[] = array("title"=> $catTitle, "active"=>!$catActive, "url"=>LiteFrame::BuildActionUrl()."&amp;catId=".$vars['catId']);
 
 				if(!$catActive){
@@ -130,10 +251,9 @@
 					);
 
 				}
-
-
-
-				$pagesize = 6;
+				
+				
+				$pagesize = 15;
 				$pageId = 1;
 				if(isset($vars['pageId'])){
 					$pageId = $vars['pageId'];				

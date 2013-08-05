@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.0.6, created on 2013-08-04 12:58:34
+<?php /* Smarty version Smarty-3.0.6, created on 2013-08-05 10:07:16
          compiled from "D:\wamp\www\GitHub\pergenproductions/templates/actions/homepage.tpl.html" */ ?>
-<?php /*%%SmartyHeaderCode:905651fe883ae41060-02861580%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:970551ffb194086a27-54650912%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '243bb21490fea1800425e9d98a0244c75f170789' => 
     array (
       0 => 'D:\\wamp\\www\\GitHub\\pergenproductions/templates/actions/homepage.tpl.html',
-      1 => 1375635513,
+      1 => 1375711634,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '905651fe883ae41060-02861580',
+  'nocache_hash' => '970551ffb194086a27-54650912',
   'function' => 
   array (
   ),
@@ -21,9 +21,9 @@ $_smarty_tpl->decodeProperties(array (
 			<section id="welcome-section" class="box half-size float-left">
 				<div class="wp">
 					<h3>Welocme to PerGen Productions</h3>
-					<p>We at PerGen Productions, believe in delivering unique product and service while beating our competitors' pricing and quality. We look at our clients as assets of our company and our goal is to meet the highly competitive entertainment market standards. Our perspective is based on our clients' needs.</p>
-					<p>We treat each event as a new one and will fully consider client's based need and demand before quoting and delivering what is promised. PerGen productions is established in 2004 and since then been organizing concerts, weddings, cultural events, fundraising's, holiday events, birthday parties, and many more large and small events with an outstanding satisfaction level from our clients.</p>
 					
+					<p>At Pergen Productions, complete customer satisfaction is our top priority. Regardless of if you are seeking to hold a birthday party, company meet-up, fund-raiser, concert or any other event, we pledge to uphold our own high standard of service whether it's working up front or setting up behind the scenes throughout the entirety of our contract.</p>
+					<p>Our clients' needs are our needs; Pergen Productions will go the extra mile to ensure your satisfaction throughout the entire process from the initial meeting with one of our event-planning professionals all the way to the clean-up after the event. Whether you would like to set up mood lighting for your club event, floral arrangements for your wedding reception or are looking for a DJ for your next birthday party, we can help arrange all of your party-planning needs on any budget. Pergen Productions seeks to provide not only the best possible entertainment and event-planning service in the industry, but we're constantly working towards raising the bar in terms of providing overall service to that ensure our clients will recognize our ability and choose us again in the future.</p>
 				</div>
 			</section>
 			<section id="services-section" class="box half-size float-right">
@@ -31,11 +31,23 @@ $_smarty_tpl->decodeProperties(array (
 					<h3>What we do?</h3>
 					<ul id="services-list" class="bullet-list">
 						<li><a href="<?php echo $_smarty_tpl->getVariable('SiteData')->value['urls']['site']['services_wedding'];?>
-"><strong>Wedding:</strong></a> Singer, DJ, Light, Sound, Wedding Planning, Hair Dressing, Center Piece, Flower, Venue Rental</li>
+">Wedding:</a> Singer, DJ, Light, Sound, Wedding Planning, Hair Dressing, Center Piece, Flower, Venue Rental</li>
 						<li><a href="<?php echo $_smarty_tpl->getVariable('SiteData')->value['urls']['site']['services_birthday'];?>
-"><strong>Birthday:</strong></a> Party Room and Venue Rental, DJ, Singer, Sound, Lighting, Evet Planning</li>
-						<li><strong>Sound System including:</strong> DJ setup, Speakers, Sound Woofers, wired/wireless microphones, Indoor/Outdoor Sounds, etc.</li>
-						<li><strong>Lighting including:</strong> Disco, Wash Light, Ambient Lighting, Indoor/Outdoor Lighting, etc.</li>
+">Birthday:</a> Party Room and Venue Rental, DJ, Singer, Sound, Lighting, Evet Planning</li>
+						<li><a href="<?php echo $_smarty_tpl->getVariable('SiteData')->value['urls']['site']['services_cultural'];?>
+">Holiday and Cultural Events</a></li>
+						<li><a href="<?php echo $_smarty_tpl->getVariable('SiteData')->value['urls']['site']['services_corporate'];?>
+">Corporate Meeting:</a> Gathering, Party</li>
+						<li><a href="<?php echo $_smarty_tpl->getVariable('SiteData')->value['urls']['site']['services_birthday'];?>
+">Live Performance:</a> Singer, Percussion, and Dance</li>
+						<li><a href="<?php echo $_smarty_tpl->getVariable('SiteData')->value['urls']['site']['services_DJs'];?>
+">Nominated DJs and MCs</a></li>
+						<li><a href="<?php echo $_smarty_tpl->getVariable('SiteData')->value['urls']['site']['services_screens'];?>
+">Video players, Projectors and Screens</a></li>
+						<li><a href="<?php echo $_smarty_tpl->getVariable('SiteData')->value['urls']['site']['services_ledLightingControl'];?>
+">Intelligent LED Lighting Control System</a></li>
+						<li><a href="<?php echo $_smarty_tpl->getVariable('SiteData')->value['urls']['site']['services_onlinePlanner'];?>
+">Online Planner Account</a></li>
 					</ul>
 					<!--<div class="button float-right"><a href="javascript:void(0)">Explore more</a></div>-->
 				</div>

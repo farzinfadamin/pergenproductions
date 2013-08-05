@@ -1,49 +1,71 @@
-/*   SERVICES PAGE
+/*   HOMEPAGE PAGE
 =================*/
 
-.services-content section {
-	background: transparent url("images/content-divider.png") no-repeat center bottom;
-	padding-bottom: 20px;
-	margin-top: 20px;
-	display: inline-block;
-	width: 100%;
+#welcome-section, #services-section {
+	height: 495px;
+}
+
+#slide-show {
+	margin: 0 auto 30px;
+	width: 936px;
+	height: 338px;
+	background: transparent url("images/general/bg-transparent-black.png") repeat;
+	padding: 7px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	position: relative;
+	overflow: hidden;
+}
+
+#slide-show .prev-button, #slide-show .next-button {
+	width: 33px;
+	height: 65px;
+	background: transparent url("images/general/arrow-slide.png") no-repeat;
+	position: absolute;
+	top: 140px;
+	z-index: 5;
+}
+
+#slide-show .prev-button {
+	background-position: right top;
+	left: 7px;
+}
+
+#slide-show .prev-button:hover {
+	background-position: right bottom;
+}
+
+#slide-show .next-button {
+	background-position: left top;
+	right: 7px;
+}
+
+#slide-show .next-button:hover {
+	background-position: left bottom;
+}
+
+#slide-picture {
+	width: 936px;
+	height: 338px;
+	overflow: hidden;
+}
+
+#slide-picture li {
+	float: left;
+	width: 936px;
+	height: 338px;
 	position: relative;
 }
 
-.services-content section.last{
-	background: none;
-	padding-bottom: 40px;
-}
-
-.service-consulting .services-btn{
-	bottom: -20px;
-}
-
-.services-content section strong {
-	color: inherit;
-	font-weight: bold;
-}
-
-.services-btn {
+#slide-picture .slide-description {
+	background: transparent url("images/general/bg-transparent-black.png") repeat;
 	position: absolute;
-	right: 25px;
-	bottom: 25px;
-}
-
-.services-content section > *{
-	margin-left: 300px;
-}
-
-.services-content section figure{
-	border: 1px solid #434343;
-	background-color: #272727;
-	padding: 7px;
-	float: left;
-	margin-left: 0;
-}
-
-.services-content section h3 {
-	font-size: 17px;
-	font-weight: normal;
-	margin-bottom: 10px;
+	bottom: 0;
+	left: 0;
+	width: 916px;
+	padding: 0 20px;
+	height: 70px;
+	line-height: 70px;
+	font-size: 20px;
+	font-weight: 400;	
 }

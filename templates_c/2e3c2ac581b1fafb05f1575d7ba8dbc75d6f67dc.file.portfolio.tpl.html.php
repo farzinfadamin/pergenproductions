@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.0.6, created on 2013-08-04 13:47:46
+<?php /* Smarty version Smarty-3.0.6, created on 2013-08-05 03:56:29
          compiled from "D:\wamp\www\GitHub\pergenproductions/templates/actions/portfolio.tpl.html" */ ?>
 <?php /*%%SmartyHeaderCode:1682451fe93c2cb6312-73077615%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_smarty_tpl->decodeProperties(array (
     '2e3c2ac581b1fafb05f1575d7ba8dbc75d6f67dc' => 
     array (
       0 => 'D:\\wamp\\www\\GitHub\\pergenproductions/templates/actions/portfolio.tpl.html',
-      1 => 1375637062,
+      1 => 1375687904,
       2 => 'file',
     ),
   ),
@@ -17,100 +17,44 @@ $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
 )); /*/%%SmartyHeaderCode%%*/?>
+<?php if ($_smarty_tpl->getVariable('SiteData')->value['portfolio']['gallery']){?>
+	<?php $_template = new Smarty_Internal_Template(($_smarty_tpl->getVariable('includeTemplate')->value).("portfolio-gallery.tpl.html"), $_smarty_tpl->smarty, $_smarty_tpl, $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null);
+ echo $_template->getRenderedTemplate();?><?php $_template->updateParentVariables(0);?><?php unset($_template);?>
+<?php }else{ ?>
 <section class="content-section">
-			<section class="box clearfix">
-				<div class="wp">
-					<hgroup id="page-title">
-						<h2>Portfolio</h2>
-						<nav class="breadcrumb">
-							<a href="<?php echo $_smarty_tpl->getVariable('SiteData')->value['urls']['site']['homepage'];?>
+	<section class="box clearfix">
+		<div class="wp">
+			<hgroup id="page-title">
+				<h2>Portfolio</h2>
+				<nav class="breadcrumb">
+					<a href="<?php echo $_smarty_tpl->getVariable('SiteData')->value['urls']['site']['homepage'];?>
 ">Home</a> &rsaquo;
-							<span >Portfolio</span>
-						</nav>
-					</hgroup>
-					<section class="portfolio-content">
-						<ul class="gallery-list">
-							<li>
-								<a href="<?php echo $_smarty_tpl->getVariable('SiteData')->value['urls']['site']['portfolio_wedding'];?>
+					<span >Portfolio</span>
+				</nav>
+			</hgroup>
+			<section class="portfolio-content">
+				<ul class="gallery-list">
+				<?php  $_smarty_tpl->tpl_vars['cat'] = new Smarty_Variable;
+ $_smarty_tpl->tpl_vars['k'] = new Smarty_Variable;
+ $_from = $_smarty_tpl->getVariable('SiteData')->value['portfolio']['cats']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
+if ($_smarty_tpl->_count($_from) > 0){
+    foreach ($_from as $_smarty_tpl->tpl_vars['cat']->key => $_smarty_tpl->tpl_vars['cat']->value){
+ $_smarty_tpl->tpl_vars['k']->value = $_smarty_tpl->tpl_vars['cat']->key;
+?>
+					<li>
+	                   <a href="<?php echo $_smarty_tpl->tpl_vars['cat']->value['url'];?>
 ">
-									<h3><span>Wedding</span></h3>
-									<img src="<?php echo $_smarty_tpl->getVariable('imagePath')->value;?>
-portfolio/wedding/cat-wedding.jpg" alt="Wedding Category">
-								</a>
-							</li>
-							<li>
-								<a href="">
-									<h3><span>Decoration and Sofreh</span></h3>
-									<img src="<?php echo $_smarty_tpl->getVariable('imagePath')->value;?>
-portfolio/decoration/cat-decoration.jpg" alt="Decoration and Sofreh Category">
-								</a>
-							</li>
-							<li>
-								<a href="javascript:void(0)">
-									<h3><span>Outdoor Event</span></h3>
-									<img src="<?php echo $_smarty_tpl->getVariable('imagePath')->value;?>
-portfolio/outdoor-events/cat-outdoor-events.jpg" alt="Outdoor Events Category">
-								</a>
-							</li>
-							<li>
-								<a href="javascript:void(0)">
-									<h3><span>Public Events</span></h3>
-									<img src="<?php echo $_smarty_tpl->getVariable('imagePath')->value;?>
-portfolio/public-events/cat-public-events.jpg" alt="Public Events Category">
-								</a>
-							</li>
-							<li>
-								<a href="javascript:void(0)">
-									<h3><span>Staff</span></h3>
-									<img src="<?php echo $_smarty_tpl->getVariable('imagePath')->value;?>
-portfolio/staff/cat-staff.jpg" alt="Staff Category">
-								</a>
-							</li>
-							<li>
-								<a href="<?php echo $_smarty_tpl->getVariable('SiteData')->value['urls']['site']['portfolio_birthday'];?>
+	                   		<h3><span><?php echo $_smarty_tpl->tpl_vars['cat']->value['title'];?>
+</span></h3>
+	                   		<img src="<?php echo $_smarty_tpl->tpl_vars['cat']->value['imageUrl'];?>
+" alt="<?php echo $_smarty_tpl->tpl_vars['cat']->value['title'];?>
 ">
-									<h3><span>Birthday</span></h3>
-									<img src="<?php echo $_smarty_tpl->getVariable('imagePath')->value;?>
-portfolio/birthday/cat-birthday.jpg" alt="Birthday Category">
-								</a>
-							</li>
-							<li>
-								<a href="javascript:void(0)">
-									<h3><span>Concert</span></h3>
-									<img src="<?php echo $_smarty_tpl->getVariable('imagePath')->value;?>
-portfolio/concert/cat-concert.jpg" alt="Concert Category">
-								</a>
-							</li>
-							<li>
-								<a href="javascript:void(0)">
-									<h3><span>Co. Meeting, Gathering, Party</span></h3>
-									<img src="<?php echo $_smarty_tpl->getVariable('imagePath')->value;?>
-portfolio/corporate-events/cat-corporate-events.jpg" alt="Corporate Events Category">
-								</a>
-							</li>
-							<li>
-								<a href="javascript:void(0)">
-									<h3><span>Holiday and Cultural Events</span></h3>
-									<img src="<?php echo $_smarty_tpl->getVariable('imagePath')->value;?>
-portfolio/holidays/cat-holidays.jpg" alt="Holiday and Cultural Events Category">
-								</a>
-							</li>
-							<li>
-								<a href="javascript:void(0)">
-									<h3><span>Sound System</span></h3>
-									<img src="<?php echo $_smarty_tpl->getVariable('imagePath')->value;?>
-portfolio/sound/cat-sound.jpg" alt="Sound System Category">
-								</a>
-							</li>
-							<li>
-								<a href="javascript:void(0)">
-									<h3><span>Lighting</span></h3>
-									<img src="<?php echo $_smarty_tpl->getVariable('imagePath')->value;?>
-portfolio/lighting/cat-lighting.jpg" alt="Lighting Category">
-								</a>
-							</li>
-						</ul>
-					</section>
-				</div>
+	                   </a>
+                   </li>
+				<?php }} ?>
+				</ul>				
 			</section>
-		</section> <!-- end of CONTENT section-->
+		</div>
+	</section>
+</section> <!-- end of CONTENT section-->				
+<?php }?>

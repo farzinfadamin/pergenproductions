@@ -22,6 +22,15 @@
 			$siteUrls["services_corporate"] = LiteFrame::BuildActionUrl( "services-corporate" );
 			$siteUrls["services_holiday"] = LiteFrame::BuildActionUrl( "services-holiday" );
 			$siteUrls["services_cultural"] = LiteFrame::BuildActionUrl( "services-cultural" );
+			$siteUrls["services_outdoor"] = LiteFrame::BuildActionUrl( "services-outdoor" );
+			$siteUrls["services_livePerformance"] = LiteFrame::BuildActionUrl( "services-live-performance" );
+			$siteUrls["services_DJs"] = LiteFrame::BuildActionUrl( "services-nominated-djs" );
+			$siteUrls["services_screens"] = LiteFrame::BuildActionUrl( "services-screens" );
+			$siteUrls["services_ledLightingControl"] = LiteFrame::BuildActionUrl( "services-led-lighting-control" );
+			$siteUrls["services_ledMovingHead"] = LiteFrame::BuildActionUrl( "services-led-moving-head" );
+			$siteUrls["services_ledPinSpot"] = LiteFrame::BuildActionUrl( "services-led-pin-spot" );
+			$siteUrls["services_ledWashUplighting"] = LiteFrame::BuildActionUrl( "services-led-wash-uplighting" );
+			$siteUrls["services_onlinePlanner"] = LiteFrame::BuildActionUrl( "services-online-planner" );
 			$siteUrls["portfolio"] = LiteFrame::BuildActionUrl( "portfolio" );
 			$siteUrls["events"] = LiteFrame::BuildActionUrl( "events" );
 			
