@@ -19,6 +19,16 @@
 	bottom: -20px;
 }
 
+.services-content section a{
+	color: #FF99FF;
+}
+
+.services-content section a:hover{
+	color: #FF00CC;
+	text-decoration: none;
+	border-bottom: 0;
+}
+
 .services-content section strong {
 	color: inherit;
 	font-weight: bold;
