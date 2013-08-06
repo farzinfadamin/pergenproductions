@@ -202,6 +202,14 @@ nav ul, nav li{
 	margin-top: 50px;
 }
 
+.inner-content figure{
+	background-color: #272727;
+    border: 1px solid #434343;
+    float: left;
+    padding: 7px;
+	margin: 0 20px 20px 0;
+}
+
 .inner-content h3{
 	font-size: 17px;
 	margin-bottom: 10px;
@@ -254,83 +262,9 @@ nav ul, nav li{
 }
 
 
-/*		FORM
- * =================*/
-
-.form > div{
-	display: inline-block;
-	width: 100%;
-	position: relative;}
-
-.form input[type=text], .form textarea, .form .select-box, .form select{
-	box-shadow: 0 0 0;
-	border: 1px solid #c9c9c9;
-	background-color: #fff;
-	width: 300px;
-	font-size: 13px;
-	font-style: normal;
-	padding: 6px 5px;
-	color: #555;
-	float: right;
-	margin-bottom: 10px;
-	font-family: Tahoma;
-	-webkit-transition: 0.2s ease;
-	-moz-transition: 0.2s ease;
-	-o-transition: 0.2s ease;
-	transition: 0.2s ease;
+.content-section .contact-inner{
+	padding-bottom: 30px;
 }
-.form select{
-	display: inline-block;
-	cursor: pointer;
-	background: #fff url("images/general/arrow-down-gray-big.png") no-repeat 98% 50%;
-	-webkit-appearance: none;
-	text-overflow: ellipsis;
-	width: 312px;
-}
-
-.form select option{
-	background: #fff;
-}
-
-.form select:focus {
-	outline: none;}
-
-.form sup {
-	color: #ff3333}
-
-.form textarea {
-	min-height: 100px;
-	resize: vertical}
-	
-.form input[type=text]:focus, .form textarea:focus, .form .select-box:focus{
-	box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2) inset;
-	-moz-box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2) inset;
-	-webkit-box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2) inset;
-	color: #333;
-	background-color: #d1d1d1;
-    }
-	
-.form .error input[type=text], .form .error textarea, .form .error .select-box{
-    background-color: #FFCECE;
-    background-image: none;
-    border-color: #FFA6A6;
-    color: #CC3333;}
-
-.form .error input[type=text]:focus, .form .error textarea:focus, .form .error .select-box:focus{
-	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05) inset, 0 0 8px rgba(255, 110, 110, 0.6);
-	-moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05) inset, 0 0 8px rgba(255, 110, 110, 0.6);
-	-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05) inset, 0 0 8px rgba(255, 110, 110, 0.6);
-}
-
-.form label {
-	float: left;
-	text-align: left;
-	margin-bottom: 5px;
-	width: 160px;}
-	
-.form .button-wrap {
-	text-align: left;}
-	
 	
 
 /*   FOOTER
