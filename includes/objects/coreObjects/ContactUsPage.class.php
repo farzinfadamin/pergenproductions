@@ -33,10 +33,10 @@ class ContactUsPage {
 	
 		self::$emailTemplate = LiteFrame::GetApplicationPath()."email/contact.html";
 		self::$userEmailTemplate = LiteFrame::GetApplicationPath().'email/contactUser.html';
-		self::$emailLogo = LiteFrame::GetImagePath()."email/logo-goalconstruction.png";
+		self::$emailLogo = LiteFrame::GetImagePath()."email/logo-pergenproductions.png";
 		self::$bgDate = LiteFrame::GetImagePath()."email/bg-date.png";
 		self::$bgMessage = LiteFrame::GetImagePath()."email/bg-message.png";
-		self::$divider = LiteFrame::GetImagePath()."email/divider.png";
+		//self::$divider = LiteFrame::GetImagePath()."email/divider.png";
 		
 		
 		foreach( $request as $key => $value ){

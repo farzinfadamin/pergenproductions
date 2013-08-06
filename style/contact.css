@@ -5,15 +5,9 @@
 	display: block;
 }
 
-.contact-content > section{
-	width: 375px;
-	float: right;
-	margin-top: 30px;
-}
-
 #map {	
-	margin-bottom: 20px;
-	display: inline-block;
+	width: 375px;
+	float: left;
 }
 
 #map .find-us{
@@ -24,66 +18,58 @@
 
 #map > div {
 	width: 360px;
-	height: 250px;
+	height: 296px;
 	border: 1px solid #434343;
 	padding: 7px;
 	float: left;
 }
 
-.contact-content > aside{
+.contact-content aside{
 	text-align: center;
-	float: left;
+	float: right;
 	width: 520px;
 	margin-top: 50px;
 }
 
-.address-section img{
+.contact-content aside img{
 	margin: 0 auto 20px;
 }
 
-.address-section p{
+.contact-content aside p{
 	margin-bottom: 10px;
 }
 
-.address-section span{
-	background: transparent url("images/contact/icon-contact2.png") no-repeat;
-	padding: 2px 0 2px 30px;
-	height: 24px;
-	line-height: 24px;
-	font-size: 13px;
+.contact-content aside span{
+	background: transparent url("images/contact/icon-contact.png") no-repeat;
+	padding: 5px 0 5px 40px;
+	height: 32px;
+	line-height: 32px;
+	font-size: 15px;
 	margin: 0 10px
 }
 
-.address-section span.addr {
+.contact-content aside span.addr {
 	background-position: left 0;
 }
 
-.address-section span.addr:hover {
-	background-position: left -24px;
+.contact-content aside span.addr:hover {
+	background-position: left -32px;
 }
 
-.address-section span.tel {
-	background-position: left -48px;
+.contact-content aside span.tel {
+	background-position: left -64px;
 }
 
-.address-section span.tel:hover {
-	background-position: left -72px;
-}
-
-.address-section span.fax {
+.contact-content aside span.tel:hover {
 	background-position: left -96px;
 }
 
-.address-section span.fax:hover {
-	background-position: left -120px;
+.contact-content aside span.fax {
+	background-position: left -128px;
 }
 
-.address-section span.mail-to {
-	background-position: left -144px;
-}
-
-.address-section span.mail-to:hover {
-	background-position: left -168px;
+.contact-content aside span.fax:hover {
+	background-position: left -160px;
 }
 
 .contact-content p a {
@@ -95,16 +81,15 @@
 	color: #ff00cc;
 }
 
-#contact-socials{
-	text-align: center;
-	width: 100%;
+#contact-socials ul{
+	display: inline-block;
 }
 
 #contact-socials a {
 	background: transparent url("images/contact/icon-socials-b.png") no-repeat;
 	width: 48px;
 	height: 48px;
-	display: inline-block;
+	float: left;
 	margin: 0 5px;
 }
 
@@ -115,92 +100,3 @@
 #contact-socials a.tw {
 	background-position: right top;
 }
-
-.contact-form .button a{
-	margin-right: 57px;
-}
-
-
-.contact-form > div{
-	display: inline-block;
-	width: 100%;
-	position: relative;}
-
-.contact-form input[type=text],
-.contact-form textarea,
-.contact-form .select-box,
-.contact-form select{
-	box-shadow: 0 0 0;
-	border: 1px solid #c9c9c9;
-	background-color: #fff;
-	width: 300px;
-	font-size: 13px;
-	font-style: normal;
-	padding: 6px 5px;
-	color: #555;
-	float: left;
-	margin-bottom: 10px;
-	font-family: Tahoma;
-	-webkit-transition: 0.2s ease;
-	-moz-transition: 0.2s ease;
-	-o-transition: 0.2s ease;
-	transition: 0.2s ease;
-}
-.contact-form select{
-	display: inline-block;
-	cursor: pointer;
-	background: #fff url("images/general/arrow-down-gray-big.png") no-repeat 98% 50%;
-	-webkit-appearance: none;
-	text-overflow: ellipsis;
-	width: 312px;
-}
-
-.contact-form select option{
-	background: #fff;
-}
-
-.contact-form select:focus {
-	outline: none;}
-
-.contact-form sup {
-	color: #ff3333}
-
-.contact-form textarea {
-	min-height: 140px;
-	resize: vertical}
-	
-.contact-form input[type=text]:focus,
-.contact-form textarea:focus,
-.contact-form .select-box:focus{
-	box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2) inset;
-	-moz-box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2) inset;
-	-webkit-box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2) inset;
-	color: #333;
-	background-color: #d1d1d1;
-    }
-	
-.contact-form .error input[type=text],
-.contact-form .error textarea,
-.contact-form .error .select-box{
-    background-color: #FFCECE;
-    background-image: none;
-    border-color: #FFA6A6;
-    color: #CC3333;}
-
-.contact-form .error input[type=text]:focus,
-.contact-form .error textarea:focus,
-.contact-form .error .select-box:focus{
-	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05) inset, 0 0 8px rgba(255, 110, 110, 0.6);
-	-moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05) inset, 0 0 8px rgba(255, 110, 110, 0.6);
-	-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05) inset, 0 0 8px rgba(255, 110, 110, 0.6);
-}
-
-.contact-form label {
-	float: left;
-	text-align: left;
-	margin-bottom: 5px;
-	width: 150px;}
-	
-.contact-form .button-wrap {
-	text-align: left;}
-	
