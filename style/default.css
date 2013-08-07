@@ -145,6 +145,10 @@ nav ul, nav li{
 }
 
 
+.loading, .loadingMsg {
+	background: transparent url("images/general/indicator.gif") no-repeat center center;
+}
+
 /*   HEADER
 =================*/
 

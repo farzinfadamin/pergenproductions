@@ -5,29 +5,84 @@
 						<h2>Contact Us</h2>
 						<p>We would love to hear from you. Feel free to call or email our office with any questions.</p>
 						<nav class="breadcrumb">
-							<a href="<!--{$applicationPath}-->">Home</a> &rsaquo;
+							<a href="<!--{$SiteData.urls.site.homepage}-->">Home</a> &rsaquo;
 							<span >Contact Us</span>
 						</nav>
 					</hgroup>
 					<section class="contact-content">
-						<section id="map">	
-							<a class="find-us" href="<!--{$SiteData.urls.external.gmap}-->">Find us on google map</a>
-							<div>
-								<div id="map_canvas" style="width:360px; height:296px"></div>
+						<aside>
+							<form action="" method="" class="contact-form">
+								<div>
+									<label for="fullName">Full Name</label>
+									<input type="text" class="required" name="fullName" id="fullName">
+								</div>
+								<div>
+									<label for="emailAddr">Email Address</label>
+									<input type="text" class="required" name="emailAddr" id="emailAddr">
+								</div>
+								<div>
+									<label for="phoneNumber">Phone Number</label>
+									<input type="text" name="phoneNumber" id="phoneNumber">
+								</div>
+								<div>
+									<label for="service">Select Service</label>
+									<select id="service" name="service">
+										<option>Select one...</option>
+										<option>Wedding</option>
+										<option>Birthday</option>
+										<option>Concert</option>
+										<option>Corporate Meeting, Gathering, Party</option>
+										<option>Outdoor Events</option>
+										<option>Cultural Events</option>
+										<option>Live Performance</option>
+										<option>Nominated DJs and MCs</option>
+										<option>Video players, Projectors and Screens</option>
+										<option>Intelligent LED Lighting Control System</option>
+										<option>Intelligent LED Moving Head Lighting</option>
+										<option>LED Pin-Spot Lighting</option>
+										<option>LED Wash Uplighting</option>
+										<option>Staff to run your parties</option>
+										<option>Event Consulting</option>
+									</select>
+								</div>
+								<div>
+									<label for="whereHear">How did you find us?</label>
+									<select id="whereHear" name="whereHear">
+										<option>Search Engine</option>
+										<option>Friend</option>
+										<option>Reseller</option>
+										<option>Other</option>
+									</select>
+								</div>
+								<div>
+									<label for="msg">Message</label>
+									<textarea class="required" name="msg" id="msg"></textarea>
+								</div>
+								<div>
+									<div class="button">
+										<a href="javascript:void(0)" class="send-btn">Submit Now</a>
+									</div>
+								</div>
+							</form>
+						</aside>
+						<section>
+							<div id="map">
+								<a class="find-us" href="<!--{$SiteData.urls.external.gmap}-->">Find us on google map</a>
+								<div>
+									<div id="map_canvas" style="width:360px; height:250px"></div>
+								</div>
+							</div>
+							<div class="address-section">
+								<!--{*<img src="<!--{$imagePath}-->general/logo-pergen-mini.png" alt="Pergen Productions logo" />*}-->
+								<p><span class="addr">8206 Leesburg Pike ,Suite 209, Vienna, VA 22182</span></p>
+								<p><span class="tel">202-596-2542</span><span class="fax">703-542-1274</span></p>
+								<p><a href="mailto:<!--{$SiteData.urls.globalUrl.email}-->"><span class="mail-to"><!--{$SiteData.urls.globalUrl.email}--></span></a></p>
+								<nav id="contact-socials">
+									<a class="fb" href="<!--{$SiteData.urls.external.facebook}-->"></a>
+									<!--<li><a class="tw" href="javascript:void(0)"></a></li>-->
+								</nav>
 							</div>
 						</section>
-						<aside>
-							<img src="<!--{$imagePath}-->general/logo-pergen-mini.png" alt="Pergen logo" />
-							<p><span class="addr">8206 Leesburg Pike ,Suite 209, Vienna, VA 22182</span></p>
-							<p><span class="tel">202-596-2542</span><span class="fax">703-542-1274</span></p>
-							<p><a class="mail-to" href="mailto:<!--{$SiteData.urls.globalUrl.email}-->">arshia@pergenproduction.com</a></p>
-							<nav id="contact-socials">
-								<ul>
-									<li><a class="fb" href="<!--{$SiteData.urls.external.facebook}-->"></a></li>
-									<!--<li><a class="tw" href="javascript:void(0)"></a></li>-->
-								</ul>
-							</nav>
-						</aside>
 					</section>
 				</div>
 			</section>

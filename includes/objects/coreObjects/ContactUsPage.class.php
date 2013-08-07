@@ -6,7 +6,7 @@ class ContactUsPage {
 	private $emailAddress;
 	private $phoneNumber;
 	private $message;
-	private $topic;
+	private $service;
 	private $hear;
 	
 
@@ -14,7 +14,7 @@ class ContactUsPage {
 	private static $emailTemplate;
 	private static $userEmailTemplate;
 	private static $emailTitle = 'The PerGen Productions Website Contact Us Form';
-	private static $to = 'arshia@pergenproductions.com';
+	private static $to = 'ffadamin@gmail.com';
 	private static $cc = 'pedramphp@gmail.com';
 	private static $subject = "New Message: The PerGen Productions Website Contact Us Form";
 	private static $emailLogo;
@@ -34,9 +34,8 @@ class ContactUsPage {
 		self::$emailTemplate = LiteFrame::GetApplicationPath()."email/contact.html";
 		self::$userEmailTemplate = LiteFrame::GetApplicationPath().'email/contactUser.html';
 		self::$emailLogo = LiteFrame::GetImagePath()."email/logo-pergenproductions.png";
-		self::$bgDate = LiteFrame::GetImagePath()."email/bg-date.png";
 		self::$bgMessage = LiteFrame::GetImagePath()."email/bg-message.png";
-		//self::$divider = LiteFrame::GetImagePath()."email/divider.png";
+		self::$emailBg = LiteFrame::GetImagePath()."email/bg-email.png";
 		
 		
 		foreach( $request as $key => $value ){
@@ -49,7 +48,7 @@ class ContactUsPage {
 		$this->emailAddress =	$request['emailAddr'];
 		$this->phone =			$request['phoneNumber'];
 		$this->message =		$request['msg'];
-		$this->topic =          $request['topic'];
+		$this->service =          $request['service'];
 		$this->hear = 			$request['whereHear'];
 	}
 
@@ -67,7 +66,7 @@ class ContactUsPage {
 		
 		$message = file_get_contents(self::$emailTemplate);
 		
-		$arrayTplVars = array('{emailLogo}','{fullName}','{emailAddress}','{phone}','{message}','{bgDate}','{divider}','{hear}','{topic}','{bgMessage}','{date}');
+		$arrayTplVars = array('{emailLogo}','{emailBg}','{fullName}','{emailAddress}','{phone}','{message}','{hear}','{service}','{bgMessage}','{date}');
 		$arrayTplData = array(	self::$emailLogo,
 								$this->fullName,
 								$this->emailAddress,
@@ -76,7 +75,7 @@ class ContactUsPage {
 								self::$bgDate,
 								self::$divider,
 								$this->hear,
-								$this->topic,
+								$this->service,
 								self::$bgMessage,
 								date("M jS, Y H:i A"));
 								
@@ -91,7 +90,7 @@ class ContactUsPage {
 		
 		
 		$userMessage = file_get_contents(self::$userEmailTemplate);
-		$arrayTplVars = array('{emailLogo}','{fullName}','{message}','{bgDate}','{divider}','{date}');
+		$arrayTplVars = array('{emailLogo}','{emailBg}','{fullName}','{message}','{date}');
 		$arrayTplData = array(	self::$emailLogo,
 								$this->fullName,
 								$this->message,

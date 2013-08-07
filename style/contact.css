@@ -5,9 +5,15 @@
 	display: block;
 }
 
-#map {	
+.contact-content > section{
 	width: 375px;
-	float: left;
+	float: right;
+	margin-top: 30px;
+}
+
+#map {	
+	margin-bottom: 20px;
+	display: inline-block;
 }
 
 #map .find-us{
@@ -18,58 +24,66 @@
 
 #map > div {
 	width: 360px;
-	height: 296px;
+	height: 250px;
 	border: 1px solid #434343;
 	padding: 7px;
 	float: left;
 }
 
-.contact-content aside{
+.contact-content > aside{
 	text-align: center;
-	float: right;
-	width: 520px;
+	float: left;
+	width: 480px;
 	margin-top: 50px;
 }
 
-.contact-content aside img{
+.address-section img{
 	margin: 0 auto 20px;
 }
 
-.contact-content aside p{
+.address-section p{
 	margin-bottom: 10px;
 }
 
-.contact-content aside span{
-	background: transparent url("images/contact/icon-contact.png") no-repeat;
-	padding: 5px 0 5px 40px;
-	height: 32px;
-	line-height: 32px;
-	font-size: 15px;
+.address-section span{
+	background: transparent url("images/contact/icon-contact2.png") no-repeat;
+	padding: 2px 0 2px 30px;
+	height: 24px;
+	line-height: 24px;
+	font-size: 13px;
 	margin: 0 10px
 }
 
-.contact-content aside span.addr {
+.address-section span.addr {
 	background-position: left 0;
 }
 
-.contact-content aside span.addr:hover {
-	background-position: left -32px;
+.address-section span.addr:hover {
+	background-position: left -24px;
 }
 
-.contact-content aside span.tel {
-	background-position: left -64px;
+.address-section span.tel {
+	background-position: left -48px;
 }
 
-.contact-content aside span.tel:hover {
+.address-section span.tel:hover {
+	background-position: left -72px;
+}
+
+.address-section span.fax {
 	background-position: left -96px;
 }
 
-.contact-content aside span.fax {
-	background-position: left -128px;
+.address-section span.fax:hover {
+	background-position: left -120px;
 }
 
-.contact-content aside span.fax:hover {
-	background-position: left -160px;
+.address-section span.mail-to {
+	background-position: left -144px;
+}
+
+.address-section span.mail-to:hover {
+	background-position: left -168px;
 }
 
 .contact-content p a {
@@ -81,15 +95,16 @@
 	color: #ff00cc;
 }
 
-#contact-socials ul{
-	display: inline-block;
+#contact-socials{
+	text-align: center;
+	width: 100%;
 }
 
 #contact-socials a {
 	background: transparent url("images/contact/icon-socials-b.png") no-repeat;
 	width: 48px;
 	height: 48px;
-	float: left;
+	display: inline-block;
 	margin: 0 5px;
 }
 
@@ -100,3 +115,125 @@
 #contact-socials a.tw {
 	background-position: right top;
 }
+
+
+.contact-form > div{
+	display: inline-block;
+	width: 100%;
+	position: relative;
+	margin-bottom: 10px;}
+	
+.contact-form > div .notification{
+	position: absolute;
+	right: 0;
+	top: -20px;
+	font-size: 11px;
+}
+
+.contact-form .error .notification {
+    color: #CC3333;
+}
+.contact-form input[type=text],
+.contact-form textarea,
+.contact-form .select-box,
+.contact-form select{
+	box-shadow: 0 0 0;
+	border: 1px solid #c9c9c9;
+	background-color: #fff;
+	width: 300px;
+	font-size: 13px;
+	font-style: normal;
+	padding: 6px 5px;
+	color: #555;
+	float: right;
+	margin-bottom: 10px;
+	font-family: Tahoma;
+	-webkit-transition: 0.2s ease;
+	-moz-transition: 0.2s ease;
+	-o-transition: 0.2s ease;
+	transition: 0.2s ease;
+}
+
+.contact-form select{
+	display: inline-block;
+	cursor: pointer;
+	background: #fff url("images/general/arrow-down-gray-big.png") no-repeat 98% 50%;
+	-webkit-appearance: none;
+	text-overflow: ellipsis;
+	width: 312px;
+}
+
+.contact-form select option{
+	background: #fff;
+}
+
+.contact-form select:focus {
+	outline: none;}
+
+.contact-form textarea {
+	min-height: 80px;
+	resize: vertical}
+	
+.contact-form input[type=text]:focus,
+.contact-form textarea:focus,
+.contact-form .select-box:focus{
+	box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2) inset;
+	-moz-box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2) inset;
+	-webkit-box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2) inset;
+	color: #333;
+	background-color: #d1d1d1;}
+	
+.contact-form .error input[type=text],
+.contact-form .error textarea,
+.contact-form .error .select-box{
+    background-color: #FFCECE;
+    background-image: none;
+    border-color: #FFA6A6;
+    color: #CC3333;}
+
+.contact-form .error input[type=text]:focus,
+.contact-form .error textarea:focus,
+.contact-form .error .select-box:focus{
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05) inset, 0 0 8px rgba(255, 110, 110, 0.6);
+	-moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05) inset, 0 0 8px rgba(255, 110, 110, 0.6);
+	-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05) inset, 0 0 8px rgba(255, 110, 110, 0.6);
+}
+
+.contact-form label {
+	float: left;
+	text-align: left;
+	margin-bottom: 5px;
+	width: 150px;}
+	
+.contact-form .button-wrap {
+	text-align: left;}
+	
+.contact-form .required{
+    background-image: url("images/contact/required.png");
+    background-repeat: no-repeat;
+    background-position: 100% 0;
+}
+
+.loadingMsg{
+	background-position: left center;
+}
+
+.status {
+	padding: 3px 10px 2px 25px;
+	float: left;
+}
+
+.status.success {
+	background: url("images/contact/icon-tick.png") no-repeat scroll 10px center #AEFFBF;
+    border: 1px solid #7dff99;
+	color: #333;
+	padding-left: 30px;
+}
+
+.status.error {
+	background: #ffa9a9 url("images/contact/icon-cross.png") no-repeat 10px center;
+	border: 1px solid #ff8484;
+	color: #333;
+	padding-left: 30px;
+}
+	
