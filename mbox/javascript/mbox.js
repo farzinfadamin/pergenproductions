@@ -95,13 +95,15 @@ JSON.stringify = JSON.stringify || function (obj) {
 	
 
 	
+
 	mbox.jsonRPC = function( config ){
+
 			var base = {
 				context: config.scope || document.body,
 				data:{
 					api: config.api,
 					method: config.method,
-					config: JSON.stringify(config.data)
+					config: config.data
 				},
 				dataType: 'json',
 				type: 'POST',
@@ -114,6 +116,7 @@ JSON.stringify = JSON.stringify || function (obj) {
 			delete config.data;
 			$.ajax($.extend({},base, config));
 	};
+
 
 })(MBOX);
 MBOX.init();

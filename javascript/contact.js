@@ -123,17 +123,17 @@ var contact = {
 	},
 	
 	showLoading: function(){
-		this.$button.parents("div").prepend( this.loadingMsg.clone() );
+		this.$button.parent("div").prepend( this.loadingMsg.clone() );
 	},
 	
 	hideLoading: function(){
-		this.$button.parents("div").find(".loadingMsg").remove();
+		this.$button.parent("div").find(".loadingMsg").remove();
 	},
 	
 	loadSucecssMsg: function(){
 		var $successMsg = this.successMsg.clone();
 		$successMsg.hide();
-		this.$button.parents("div").prepend( $successMsg );
+		this.$button.parent("div").prepend( $successMsg );
 		$successMsg.fadeIn(500).delay('3000').fadeOut(500,$.proxy(function(){
 			$successMsg.remove();
 			this.enableForm();
@@ -144,7 +144,7 @@ var contact = {
 		var $errorMsg = this.errorMsg.clone();
 		$errorMsg.hide();
 		
-		this.$button.parents("div").prepend( $errorMsg );
+		this.$button.parent("div").prepend( $errorMsg );
 		$errorMsg.fadeIn(500).delay('3000').fadeOut(500,$.proxy(function(){
 			$errorMsg.remove();
 			this.enableForm();

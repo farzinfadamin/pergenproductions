@@ -78,14 +78,14 @@ class Site extends SiteHelper{
 	}/* </ generateObject >  */	
 	
 	
+
 	private function jsonrpc(){
 			parent::__construct();
 			$post = LiteFrame::FetchPostVariable();
 			$api = new $post['api']();
-			self::$siteObjectsData[$post['api'] . "_" . $post['method']] = call_user_func_array(array($api, $post['method']), array(json_decode($post['config'])));
+			self::$siteObjectsData[$post['api'] . "_" . $post['method']] = call_user_func_array(array($api, $post['method']), $post['config']);
 			$this->setObjectsForTemplate(); 
 	}
-	
 }	/* </Site> */
 
 

@@ -14,13 +14,14 @@ class ContactUsPage {
 	private static $emailTemplate;
 	private static $userEmailTemplate;
 	private static $emailTitle = 'The PerGen Productions Website Contact Us Form';
-	private static $to = 'ffadamin@gmail.com';
+	private static $to = 'ffadamin@gmail.com,pedramphp@gmail.com';
 	private static $cc = 'pedramphp@gmail.com';
 	private static $subject = "New Message: The PerGen Productions Website Contact Us Form";
 	private static $emailLogo;
 	private static $bgDate;
 	private static $bgMessage;
 	private static $divider;
+	private static $emailBg;
 	
 	private $request;
 	private $services = array();
@@ -37,8 +38,10 @@ class ContactUsPage {
 		self::$bgMessage = LiteFrame::GetImagePath()."email/bg-message.png";
 		self::$emailBg = LiteFrame::GetImagePath()."email/bg-email.png";
 		
+		self::$divider = ""; //FILL THIS 
 		
 		foreach( $request as $key => $value ){
+			
 			$request[$key] = htmlspecialchars(stripslashes(ucfirst( trim( $value ))));
 			if(empty($request[$key]) && $key != 'emailAddr'){
 				$request[$key] = self::$empty; 
@@ -48,7 +51,7 @@ class ContactUsPage {
 		$this->emailAddress =	$request['emailAddr'];
 		$this->phone =			$request['phoneNumber'];
 		$this->message =		$request['msg'];
-		$this->service =          $request['service'];
+		$this->service =        $request['service'];
 		$this->hear = 			$request['whereHear'];
 	}
 
@@ -66,13 +69,13 @@ class ContactUsPage {
 		
 		$message = file_get_contents(self::$emailTemplate);
 		
-		$arrayTplVars = array('{emailLogo}','{emailBg}','{fullName}','{emailAddress}','{phone}','{message}','{hear}','{service}','{bgMessage}','{date}');
+		$arrayTplVars = array('{emailLogo}','{emailBg}','{fullName}','{emailAddress}','{phone}','{message}','{divider}','{hear}','{service}','{bgMessage}','{date}');
 		$arrayTplData = array(	self::$emailLogo,
+								self::$emailBg,
 								$this->fullName,
 								$this->emailAddress,
 								$this->phone,
 								$this->message,
-								self::$bgDate,
 								self::$divider,
 								$this->hear,
 								$this->service,
@@ -84,19 +87,22 @@ class ContactUsPage {
 		
 		
 		$headers = 'From: '.self::$emailTitle.' <'.$this->emailAddress.'> ' . "\r\n";
-	//	$headers .- 'CC:' . self::$cc . "\r\n";
+		//$headers .- 'CC:' . self::$cc . "\r\n";
 		$headers .= 'MIME-Version: 1.0' . "\r\n";
 		$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
 		
 		
 		$userMessage = file_get_contents(self::$userEmailTemplate);
-		$arrayTplVars = array('{emailLogo}','{emailBg}','{fullName}','{message}','{date}');
+		$arrayTplVars = array('{emailLogo}','{emailBg}','{fullName}','{message}','{divider}','{date}','{emailAddress}','{phone}','{service}');
 		$arrayTplData = array(	self::$emailLogo,
+								self::$emailBg,
 								$this->fullName,
 								$this->message,
-								self::$bgDate,
 								self::$divider,
-								date("M jS, Y H:i A"));
+								date("M jS, Y H:i A"),
+								$this->emailAddress,
+								$this->phone,
+								$this->service);
 								
 		$userMessage = str_replace($arrayTplVars, $arrayTplData, $userMessage);
 
