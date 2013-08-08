@@ -13,3 +13,7 @@
 .about-content p{
 	margin-bottom: 20px;
 }
+
+.inner-content figure{
+	float: right;
+}

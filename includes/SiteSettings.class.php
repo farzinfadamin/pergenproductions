@@ -26,7 +26,7 @@ class SiteSettings {
 			LiteFrame::IncludeLibraryJavascript('plugins/jquery.carousel.js');
 		}
 		
-		if( LiteFrame::getActiveAction() === 'portfolio'){
+		if( LiteFrame::getActiveAction() === 'portfolio' || LiteFrame::getActiveAction() === 'about'){
 			LiteFrame::IncludeLibraryJavascript('fancybox/lib/jquery.mousewheel-3.0.6.pack.js');
 			LiteFrame::IncludeLibraryJavascript('fancybox/source/jquery.fancybox.pack.js');
 			LiteFrame::IncludeLibraryJavascript('fancybox/source/helpers/jquery.fancybox-media.js');
