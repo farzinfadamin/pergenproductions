@@ -3,7 +3,7 @@
 				<div class="wp">
 					<hgroup id="page-title">
 						<h2>Contact Us</h2>
-						<p>We would love to hear from you. Feel free to call or email our office with any questions.</p>
+						<!--{*<p>We would love to hear from you. Feel free to call or email our office with any questions.</p>*}-->
 						<nav class="breadcrumb">
 							<a href="<!--{$SiteData.urls.site.homepage}-->">Home</a> &rsaquo;
 							<span >Contact Us</span>
@@ -82,19 +82,19 @@
 						</aside>
 						<section>
 							<div id="map">
-								<a class="find-us" href="<!--{$SiteData.urls.external.gmap}-->">Find us on google map</a>
+								<!--{*<a class="find-us" href="<!--{$SiteData.urls.external.gmap}-->">Find us on google map</a>*}-->
 								<div>
-									<div id="map_canvas" style="width:360px; height:250px"></div>
+									<div id="map_canvas" style="width:394px; height:250px"></div>
 								</div>
 							</div>
 							<div class="address-section">
 								<!--{*<img src="<!--{$imagePath}-->general/logo-pergen-mini.png" alt="Pergen Productions logo" />*}-->
 								<p><span class="addr">8206 Leesburg Pike ,Suite 209, Vienna, VA 22182</span></p>
-								<p><span class="tel">202-596-2542</span><span class="fax">703-542-1274</span></p>
+								<p><span class="tel"><!--{$SiteData.urls.globalUrl.tel_number}--></span><span class="fax">703-542-1274</span></p>
 								<p><a href="mailto:<!--{$SiteData.urls.globalUrl.email}-->"><span class="mail-to"><!--{$SiteData.urls.globalUrl.email}--></span></a></p>
 								<nav id="contact-socials">
 									<a class="fb" href="<!--{$SiteData.urls.external.facebook}-->"></a>
-									<!--<li><a class="tw" href="javascript:void(0)"></a></li>-->
+									<li><a class="tw" href="<!--{$SiteData.urls.external.twitter}-->"></a></li>
 								</nav>
 							</div>
 						</section>

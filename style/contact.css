@@ -6,9 +6,9 @@
 }
 
 .contact-content > section{
-	width: 375px;
+	width: 410px;
 	float: right;
-	margin-top: 30px;
+	margin-top: 50px;
 }
 
 #map {	
@@ -23,7 +23,7 @@
 }
 
 #map > div {
-	width: 360px;
+	width: 394px;
 	height: 250px;
 	border: 1px solid #434343;
 	padding: 7px;
@@ -203,6 +203,7 @@
 	float: left;
 	text-align: left;
 	margin-bottom: 5px;
+	font-size: 15px;
 	width: 150px;}
 	
 .contact-form .button-wrap {
@@ -236,4 +237,10 @@
 	color: #333;
 	padding-left: 30px;
 }
-	
+
+
+#contact-section .button a {
+    float: right;
+    padding: 7px 15px;
+	font-size: 15px;
+}

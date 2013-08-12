@@ -33,9 +33,6 @@
 				case "services":
 					$title = "Services | PerGen Productions";
 					break;
-				case "services-wedding":
-					$title = "Wedding Services | PerGen Productions";
-					break;
 			}
 			$this->results = $title;
 			

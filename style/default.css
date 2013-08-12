@@ -153,15 +153,21 @@ nav ul, nav li{
 =================*/
 
 #header {
-	margin: 30px 0 10px;
 	display: inline-block;
 	width: 100%;
+	position: relative;
+	height: 120px;	
+}
+
+#header > section{
+	margin-top: 30px;
 }
 
 #header h1 {
 	float: left;
 	width: 205px;
 	height: 50px;
+	margin-top: 20px;
 }
 
 #header h1 a{
@@ -171,14 +177,65 @@ nav ul, nav li{
 	float: left;
 }
 
+a.login-section{
+	position: absolute;
+	left: 0;
+	top: 0;
+	background: transparent url("images/general/bg-transparent-black.png") repeat;
+	padding: 5px 10px;
+	-webkit-border-radius: 0 0 5px 5px;
+	-moz-border-radius: 0 0 5px 5px;
+	border-radius: 0 0 5px 5px;
+	color: #fff;
+	
+	-webkit-transition: all 0.2s ease 0s;
+	-moz-transition: all 0.2s ease 0s;
+	-ms-transition: all 0.2s ease 0s;
+	-o-transition: all 0.2s ease 0s;
+	transition: all 0.2s ease 0s;
+}
+
+a.login-section:hover{
+	padding-top: 10px;
+	text-decoration: none;
+}
+
+.tel-section{
+	position: absolute;
+	right: 0;
+	top: 15px;
+	margin-top: 20px;
+}
+
+.tel-section a{
+	font-size: 22px;
+	color: #fff;
+	
+	-webkit-transition: all 0.2s ease 0s;
+	-moz-transition: all 0.2s ease 0s;
+	-ms-transition: all 0.2s ease 0s;
+	-o-transition: all 0.2s ease 0s;
+	transition: all 0.2s ease 0s;
+}
+
+.tel-section a:hover{
+	text-decoration: none;
+	color: #ff00cc;
+}
+
+.tel-section small{
+	font-size: 13px;
+	color: #fff;
+}
+
 #main-menu {
 	float: right;
-	margin-top: 10px;
+	margin-top: 50px;
 }
 
 #main-menu li {
 	float: left;
-	margin-left: 15px
+	margin-left: 15px;
 }
 
 #main-menu li a {
@@ -188,11 +245,31 @@ nav ul, nav li{
 	padding-bottom: 0;
 	font-weight: 400;
 	font-size: 14px;
+	position: relative;
 }
 
-#main-menu li a:hover, #main-menu li.active a {
-	border-bottom: 4px solid #ff00cc;
+#main-menu li a:hover{
 	text-decoration: none;
+}
+
+#main-menu li a span{
+	position: absolute;
+	left: 0;
+	bottom: -4px;
+	height: 4px;
+	width: 0;
+	background-color: #ff00cc;
+	
+	-webkit-transition: width 0.2s ease 0s;
+	-moz-transition: width 0.2s ease 0s;
+	-ms-transition: width 0.2s ease 0s;
+	-o-transition: width 0.2s ease 0s;
+	transition: width 0.2s ease 0s;
+}
+
+#main-menu li a:hover span,
+#main-menu li.active a span{
+	width: 100%;
 }
 
 /*   CONTENT

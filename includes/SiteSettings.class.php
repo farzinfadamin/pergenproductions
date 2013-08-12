@@ -23,7 +23,7 @@ class SiteSettings {
 		LiteFrame::IncludeJavascript('default.js');
 		
 		if( LiteFrame::getActiveAction() === 'homepage'){
-			LiteFrame::IncludeLibraryJavascript('plugins/jquery.carousel.js');
+			LiteFrame::IncludeLibraryJavascript('plugins/jquery.tinycarousel.min.js');
 		}
 		
 		if( LiteFrame::getActiveAction() === 'portfolio' || LiteFrame::getActiveAction() === 'about'){

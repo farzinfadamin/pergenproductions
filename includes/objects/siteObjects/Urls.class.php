@@ -31,6 +31,7 @@
 			$siteUrls["services_ledPinSpot"] = LiteFrame::BuildActionUrl( "services-led-pin-spot" );
 			$siteUrls["services_ledWashUplighting"] = LiteFrame::BuildActionUrl( "services-led-wash-uplighting" );
 			$siteUrls["services_onlinePlanner"] = LiteFrame::BuildActionUrl( "services-online-planner" );
+			$siteUrls["services_eventConsulting"] = LiteFrame::BuildActionUrl( "services-event-consulting" );
 			$siteUrls["portfolio"] = LiteFrame::BuildActionUrl( "portfolio" );
 			$siteUrls["events"] = LiteFrame::BuildActionUrl( "events" );
 			
@@ -38,13 +39,14 @@
 			$external["mexoinc"] = "http://www.mexoinc.com";
 			$external["curlybit"] = "http://www.curlybit.com";
 			$external["facebook"] = "https://facebook.com/arshiakia";
+			$external["twitter"] = "https://twitter.com/PerGenPro";
 			$external["gmap"] = "http://maps.google.com/maps/ms?msa=0&msid=208909912969342858005.0004bc9095da5cc5744dc&ie=UTF8&t=m&z=19&vpsrc=1&iwloc=0004bc9095dc03300d254";
 			
 			$globalUrls = array();
-			$globalUrls["tel_number"] = "202-596-2542";
+			$globalUrls["tel_number"] = "1-855-2PERGEN";
 			$globalUrls["fax_number"] = "703-542-1274";
 			$globalUrls["address"] = "8206 Leesburg Pike, Suite 209, Vienna, VA 22182";
-			$globalUrls["email"] = "arshia@pergenproductions.com";
+			$globalUrls["email"] = "info@pergenproductions.com";
 			
 			$this->results = array(
 				"site" 		=> $siteUrls,

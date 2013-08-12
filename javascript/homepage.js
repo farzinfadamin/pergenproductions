@@ -1,11 +1,13 @@
-$(window).load(function(){
+$(document).ready(function () {
 
-	$("#slide-show").carousel({
-		prev: '.prev-button',
-		next:  '.next-button',
-		limit: 1,
-		time: 500,
-		loop: true
+	var navBtn = $("#slide-show .navigator");
+	$("#slide-show").mouseenter(function(){
+		$(this).find(navBtn).fadeIn(200);
+	}).mouseleave(function(){
+		$(this).find(navBtn).fadeOut(200);
 	});
 
-})
+	
+	$("#slide-show").tinycarousel({ interval : true, intervaltime: 5000});
+
+});
