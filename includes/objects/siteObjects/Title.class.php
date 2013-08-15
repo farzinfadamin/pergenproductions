@@ -21,7 +21,7 @@
 				case "events":
 					$title = "Events | PerGen Productions";
 					break;
-				case "tetimonials":
+				case "testimonials":
 					$title = "Tetimonials | PerGen Productions";
 					break;
 				case "contact":

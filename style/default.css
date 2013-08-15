@@ -156,7 +156,6 @@ nav ul, nav li{
 	display: inline-block;
 	width: 100%;
 	position: relative;
-	height: 120px;	
 }
 
 #header > section{
@@ -231,16 +230,23 @@ a.login-section:hover{
 #main-menu {
 	float: right;
 	margin-top: 50px;
+	background: transparent url("images/general/bg-transparent-black.png") repeat;
+	padding: 0 15px;
+	height: 45px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
 }
 
 #main-menu li {
 	float: left;
-	margin-left: 15px;
+	margin: 0 7px;
 }
 
 #main-menu li a {
 	float: left;
 	color: #fff;
+	line-height: 45px;
 	display: inline-block;
 	padding-bottom: 0;
 	font-weight: 400;
@@ -255,7 +261,7 @@ a.login-section:hover{
 #main-menu li a span{
 	position: absolute;
 	left: 0;
-	bottom: -4px;
+	top: 0;
 	height: 4px;
 	width: 0;
 	background-color: #ff00cc;
@@ -277,6 +283,9 @@ a.login-section:hover{
 
 .content-section {
 	position: relative;
+	float: left;
+	clear: both;
+	width: 100%;
 }
 
 .inner-content{
@@ -305,13 +314,15 @@ a.login-section:hover{
 }
 
 #page-title h2{
-	margin-bottom: 10px;
+	margin-top: 10px;
+	margin-bottom: 30px;
 }
 
 .box {
 	background: transparent url("images/general/bg-transparent-black.png") repeat;
-	border-radius: 5px;
+	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
+	border-radius: 5px;
 }
 
 .half-size {
@@ -378,12 +389,23 @@ a.login-section:hover{
 }
 
 #footer-links li {
-	margin-right: 10px;
+	margin-right: 5px;
 	float: left;
+	color: #666;
 }
 
 #footer-links a{
 	color: #fff;
+	font-size: 13px;
+	-webkit-transition: all 0.1s ease 0s;
+	-moz-transition: all 0.1s ease 0s;
+	-o-transition: all 0.1s ease 0s;
+	transition: all 0.1s ease 0s;
+}
+
+#footer-links a:hover{
+	text-decoration: none;
+	color: #FF00CC;
 }
 
 .copyright label{
@@ -423,8 +445,8 @@ a.login-section:hover{
 
 #footer-socials a {
 	background: transparent url("images/general/icon-socials-footer.png") no-repeat;
-	width: 16px;
-	height: 16px;
+	width: 24px;
+	height: 24px;
 	float: left;
 	margin-left: 5px;
 	margin-top: 4px;
