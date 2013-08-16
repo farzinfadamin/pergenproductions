@@ -8,8 +8,7 @@
 
 .testimonials-list li{
 	background: transparent url("images/content-divider.png") no-repeat center bottom;
-	padding-bottom: 30px;
-	margin-top: 30px;
+	margin-top: 15px;
 	float: left;
 	width: 100%;
 }

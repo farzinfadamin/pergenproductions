@@ -8,7 +8,6 @@
 .contact-content > section{
 	width: 410px;
 	float: right;
-	margin-top: 50px;
 }
 
 #map {	
@@ -34,7 +33,6 @@
 	text-align: center;
 	float: left;
 	width: 480px;
-	margin-top: 50px;
 }
 
 .address-section img{

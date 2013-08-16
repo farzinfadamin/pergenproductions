@@ -4,13 +4,12 @@
 .gallery-list {
 	display: inline-block;
 	margin-bottom: 20px;
+	margin-top: -20px;
 }
 
 .gallery-list li{
-	width: 250px;
-	height: 185px;
 	float: left;
-	margin: 80px 24px 0;
+	margin: 70px 18px 0;
 }
 
 .gallery-list li a{
@@ -68,7 +67,7 @@
 }
 
 .portfolio-image-list .gallery-list li{
-	margin: 58px 24px 0;
+	margin: 50px 18px 0;
 }
 
 .portfolio-image-list .gallery-list li a span{

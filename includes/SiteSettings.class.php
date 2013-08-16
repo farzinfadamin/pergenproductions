@@ -26,7 +26,7 @@ class SiteSettings {
 			LiteFrame::IncludeLibraryJavascript('plugins/jquery.tinycarousel.min.js');
 		}
 		
-		if( LiteFrame::getActiveAction() === 'portfolio' || LiteFrame::getActiveAction() === 'about'){
+		if( LiteFrame::getActiveAction() === 'portfolio' || LiteFrame::getActiveAction() === 'about' || LiteFrame::getActiveAction() === 'homepage'){
 			LiteFrame::IncludeLibraryJavascript('fancybox/lib/jquery.mousewheel-3.0.6.pack.js');
 			LiteFrame::IncludeLibraryJavascript('fancybox/source/jquery.fancybox.pack.js');
 			LiteFrame::IncludeLibraryJavascript('fancybox/source/helpers/jquery.fancybox-media.js');

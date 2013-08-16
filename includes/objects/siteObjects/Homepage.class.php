@@ -9,8 +9,57 @@
 		
 		public function process(){
 		
-			
-			$this->results = array();
+				$images = array();
+				$catsLen = 1;
+				$len = 20;
+				$portfolioId = "wedding";
+				$subCatkey = null;
+				for($i=1; $i<=$len; $i++){
+					if( $i < 10 ){ $index = "0$i"; }
+					else{ $index = $i; }
+					if($catsLen == 1){
+						$images[] = array("url" => UrlModule::$IMAGE_CAT_PATH.$portfolioId."/pic-".$portfolioId."-".$index.".jpg",
+										 "galleryUrl"=>LiteFrame::BuildActionUrl("portfolio")."&amp;catId=".$portfolioId);
+					}else{
+						$images[] = array("url" => UrlModule::$IMAGE_CAT_PATH.$portfolioId."/$subCatKey"."/pic-".$subCatKey."-".$index.".jpg");
+					}
+				}
+				
+				
+				
+				$catsLen = 1;
+				$len = 6;
+				$portfolioId = "birthday";
+				$subCatkey = null;
+				for($i=1; $i<=$len; $i++){
+					if( $i < 10 ){ $index = "0$i"; }
+					else{ $index = $i; }
+					if($catsLen == 1){
+						$images[] = array("url" => UrlModule::$IMAGE_CAT_PATH.$portfolioId."/pic-".$portfolioId."-".$index.".jpg",
+										 "galleryUrl"=>LiteFrame::BuildActionUrl("portfolio")."&amp;catId=".$portfolioId);
+					}else{
+						$images[] = array("url" => UrlModule::$IMAGE_CAT_PATH.$portfolioId."/$subCatKey"."/pic-".$subCatKey."-".$index.".jpg");
+					}
+				}
+				
+				
+				$catsLen = 1;
+				$len = 4;
+				$portfolioId = "holiday";
+				$subCatkey = null;
+				for($i=1; $i<=$len; $i++){
+					if( $i < 10 ){ $index = "0$i"; }
+					else{ $index = $i; }
+					if($catsLen == 1){
+						$images[] = array("url" => UrlModule::$IMAGE_CAT_PATH.$portfolioId."/pic-".$portfolioId."-".$index.".jpg",
+										 "galleryUrl"=>LiteFrame::BuildActionUrl("portfolio")."&amp;catId=".$portfolioId);
+					}else{
+						$images[] = array("url" => UrlModule::$IMAGE_CAT_PATH.$portfolioId."/$subCatKey"."/pic-".$subCatKey."-".$index.".jpg");
+					}
+				}
+				
+
+			$this->results = array("portfolio"=>$images);
 		}
 		
 	}

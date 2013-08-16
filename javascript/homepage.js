@@ -9,5 +9,7 @@ $(document).ready(function () {
 
 	
 	$("#slide-show").tinycarousel({ interval : true, intervaltime: 5000});
+	$("#testimonial-section").tinycarousel({ interval : true, intervaltime: 5000});
+	$("#portfolio-section").tinycarousel({ interval : false, intervaltime: 5000});
 
 });

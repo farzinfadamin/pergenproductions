@@ -1,16 +1,104 @@
 <section class="content-section">
 			<section id="welcome-section" class="box half-size float-left">
-			
+				<header>
+					<h3><h3>Welocme to PerGen Productions</h3></h3>
+				</header>
 				<div class="wp">
-					<h3>Welocme to PerGen Productions</h3>
-					
 					<!--{*<p>We at PerGen Productions, believe in delivering unique product and service while beating our competitors' pricing and quality. We look at our clients as assets of our company and our goal is to meet the highly competitive entertainment market standards. Our perspective is based on our clients' needs.</p>
 					<p>We treat each event as a new one and will fully consider client's based need and demand before quoting and delivering what is promised. PerGen productions is established in 2004 and since then been organizing concerts, weddings, cultural events, fundraising's, holiday events, birthday parties, and many more large and small events with an outstanding satisfaction level from our clients.</p>*}-->
-					<p>At Pergen Productions, complete customer satisfaction is our top priority. Regardless of if you are seeking to hold a birthday party, company meet-up, fund-raiser, concert or any other event, we pledge to uphold our own high standard of service whether it's working up front or setting up behind the scenes throughout the entirety of our contract.</p>
-					<p>Our clients' needs are our needs; Pergen Productions will go the extra mile to ensure your satisfaction throughout the entire process from the initial meeting with one of our event-planning professionals all the way to the clean-up after the event. Whether you would like to set up mood lighting for your club event, floral arrangements for your wedding reception or are looking for a DJ for your next birthday party, we can help arrange all of your party-planning needs on any budget. Pergen Productions seeks to provide not only the best possible entertainment and event-planning service in the industry, but we're constantly working towards raising the bar in terms of providing overall service to that ensure our clients will recognize our ability and choose us again in the future.</p>
+					<p>At Pergen Productions, complete customer satisfaction is our top priority. Regardless of if you are seeking to hold a birthday party, company meet-up, fund-raiser, concert or any other event, we pledge to uphold our own high standard of service whether it's working up front or setting up behind the scenes throughout the entirety of our contract. <a href="<!--{$SiteData.urls.site.about}-->">(Read more)</a></p>
+					<!--{*<p>Our clients' needs are our needs; Pergen Productions will go the extra mile to ensure your satisfaction throughout the entire process from the initial meeting with one of our event-planning professionals all the way to the clean-up after the event. Whether you would like to set up mood lighting for your club event, floral arrangements for your wedding reception or are looking for a DJ for your next birthday party, we can help arrange all of your party-planning needs on any budget. Pergen Productions seeks to provide not only the best possible entertainment and event-planning service in the industry, but we're constantly working towards raising the bar in terms of providing overall service to that ensure our clients will recognize our ability and choose us again in the future.</p>*}-->
 				</div>
 			</section>
-			<section id="services-section" class="box half-size float-right">
+			<section id="testimonial-section" class="box half-size float-right carousel">
+				<header>
+					<h3>Testimonials</h3>
+					<nav>
+						<a href="javascript:void(0)" class="prev"></a>
+						<a href="javascript:void(0)" class="next"></a>
+					</nav>
+				</header>
+				<div class="wp">
+					<nav class="viewport">
+						<ul class="overview">
+							<li>
+								<h4>Ali - May 04, 2013</h4>
+								<p>We used Arshia and his team to provide DJ and Lighting services for our wedding reception in our ballroom. They brought many different types of lights, which made the ballroom look gorgeous and they did it all at an affordable price. The sound system was top notch and the music selection was great.</p>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</section>
+			
+			<section id="portfolio-section" class="box">
+				<header>
+					<h3>Our Portfolio</h3>
+					<div class="button float-right"><a href="<!--{$SiteData.urls.site.portfolio}-->">View All</a></div>
+				</header>
+				<div class="wp">
+					<div class="portfolio-carousel">
+						<a class="prev" href="javascript:void(0)"></a>
+						<nav class="viewport">
+							<ul class="overview">
+								<!--{*<!--{foreach from=$SiteData.portfolio.images key=k item=image}-->
+								<li>
+									<a href="<!--{$image.url}-->" data-fancybox-group="group">
+										<img src="<!--{$image.thumb}-->" />
+										<span></span>
+									</a>
+								</li>
+								<!--{/foreach}-->*}-->
+								
+								
+								
+								
+								
+								<li>
+									<a href="<!--{$imagePath}-->portfolio/wedding/pic-wedding-01.jpg" data-fancybox-group="group">
+										<img src="<!--{$imagePath}-->portfolio/wedding/pic-wedding-01_.jpg" />
+										<span></span>
+									</a>
+								</li>
+								<li>
+									<a href="<!--{$imagePath}-->portfolio/wedding/pic-wedding-02.jpg" data-fancybox-group="group">
+										<img src="<!--{$imagePath}-->portfolio/wedding/pic-wedding-02_.jpg" />
+										<span></span>
+									</a>
+								</li>
+								<li>
+									<a href="<!--{$imagePath}-->portfolio/wedding/pic-wedding-03.jpg" data-fancybox-group="group">
+										<img src="<!--{$imagePath}-->portfolio/wedding/pic-wedding-03_.jpg" />
+										<span></span>
+									</a>
+								</li>
+								<li>
+									<a href="<!--{$imagePath}-->portfolio/wedding/pic-wedding-04.jpg" data-fancybox-group="group">
+										<img src="<!--{$imagePath}-->portfolio/wedding/pic-wedding-04_.jpg" />
+										<span></span>
+									</a>
+								</li>
+								<li>
+									<a href="<!--{$imagePath}-->portfolio/wedding/pic-wedding-05.jpg" data-fancybox-group="group">
+										<img src="<!--{$imagePath}-->portfolio/wedding/pic-wedding-05_.jpg" />
+										<span></span>
+									</a>
+								</li>
+								<li>
+									<a href="<!--{$imagePath}-->portfolio/wedding/pic-wedding-06.jpg" data-fancybox-group="group">
+										<img src="<!--{$imagePath}-->portfolio/wedding/pic-wedding-06_.jpg" />
+										<span></span>
+									</a>
+								</li>
+							</ul>
+						</nav>
+						<a class="next" href="javascript:void(0)"></a>
+					</div>
+				</div>
+			</section>
+			
+			
+			
+			<!--{*<section id="services-section" class="box half-size float-right">
 				<div class="wp">
 					<h3>What we do?</h3>
 					<ul id="services-list" class="bullet-list">
@@ -26,5 +114,5 @@
 					</ul>
 					<!--<div class="button float-right"><a href="javascript:void(0)">Explore more</a></div>-->
 				</div>
-			</section>
+			</section>*}-->
 		</section> <!-- end of CONTENT section-->

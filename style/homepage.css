@@ -1,10 +1,6 @@
 /*   HOMEPAGE PAGE
 =================*/
 
-#welcome-section, #services-section {
-	height: 495px;
-}
-
 #slide-show {
 	margin: 0 auto 30px;
 	width: 936px;
@@ -89,4 +85,137 @@
 	line-height: 70px;
 	font-size: 20px;
 	font-weight: 400;	
+}
+
+
+#welcome-section, #testimonial-section {
+	height: 250px;
+	margin-bottom: 30px;
+}
+
+#portfolio-section{
+	clear: both;
+	width: 100%;
+	float: left;
+}
+
+#testimonial-section h4{
+	margin-bottom: 10px;
+}
+
+#testimonial-section header nav{
+	float: right;
+}
+
+#testimonial-section header nav a{
+	background: transparent url("images/homepage/arrow-carousel-small.png") no-repeat;
+	width: 6px;
+	height: 10px;
+	display: inline-block;
+	margin: 0 2px;
+}
+
+#testimonial-section a.disable{
+	visibility: hidden;
+}
+
+#testimonial-section a.prev{
+	background-position: left top;
+}
+
+#testimonial-section a.prev:hover{
+	background-position: left bottom;
+}
+
+#testimonial-section a.next{
+	background-position: right top;
+}
+
+#testimonial-section a.next:hover{
+	background-position: right bottom;
+}
+
+#testimonial-section .viewport{
+	width: 420px;
+	height: 145px;
+	position: relative;
+	overflow: hidden;
+}
+
+#testimonial-section .overview{
+	height: 145px;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+#testimonial-section .overview li{
+	width: 420px;
+	height: 145px;
+	float: left;
+	margin-right: 20px;
+}
+
+
+#portfolio-section .viewport{
+	width: 835px;
+	height: 93px;
+	position: relative;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+#portfolio-section .overview{
+	height: 93px;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+#portfolio-section li{
+	width: 141px;
+	height: 93px;
+	float: left;
+	margin: 0 15px;
+}
+
+#portfolio-section li img{
+	width: 141px;
+	height: 93px;
+}
+
+.portfolio-carousel{
+	position: relative;
+	padding: 10px 0;
+}
+
+.portfolio-carousel > a{
+	background: transparent url("images/homepage/arrow-carousel-big.png") no-repeat;
+	width: 20px;
+	height: 36px;
+	position: absolute;
+	top: 50%;
+	margin-top: -18px;
+}
+
+.portfolio-carousel > a.disable{
+	visibility: hidden;
+}
+
+.portfolio-carousel > a.prev{
+	left: 0;
+	background-position: left top;
+}
+
+.portfolio-carousel > a.prev:hover{
+	background-position: left bottom;
+}
+
+.portfolio-carousel > a.next{
+	right: 0;
+	background-position: right top;
+}
+
+.portfolio-carousel > a.next:hover{
+	background-position: right bottom;
 }
