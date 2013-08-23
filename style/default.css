@@ -89,7 +89,7 @@ nav ul, nav li{
 	transition: 0.2s linear 0s;
 	border-radius: 2px;
 	-moz-border-radius: 2px;
-	float: right;
+	display: inline-block;
 }
 
 .button a:hover {
