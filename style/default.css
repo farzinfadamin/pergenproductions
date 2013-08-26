@@ -231,16 +231,156 @@ a.login-section:hover{
 	float: right;
 	margin-top: 50px;
 	background: transparent url("images/general/bg-transparent-black.png") repeat;
-	padding: 0 15px;
+	padding: 0 5px;
 	height: 45px;
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	border-radius: 5px;
 }
 
+#main-menu ul {
+	margin-top: 9px;
+}
+
 #main-menu li {
 	float: left;
-	margin: 0 7px;
+	margin: 0 3px;
+	
+}
+
+/*#main-menu li a {
+	line-height: 2em;
+	-webkit-perspective: 800px;
+	-moz-perspective: 800px;
+	perspective: 800px;
+	font-size: 14px;
+}
+
+#main-menu li a span {
+	position: relative;
+	display: inline-block;
+	width: 100%;
+	background: #bb0a8f;
+	-webkit-transition: -webkit-transform 0.4s, background 0.4s;
+	-moz-transition: -moz-transform 0.4s, background 0.4s;
+	transition: transform 0.4s, background 0.4s;
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	-webkit-transform-origin: 50% 50% -50px;
+	-moz-transform-origin: 50% 50% -50px;
+	transform-origin: 50% 50% -50px;
+	color: #fff;
+	text-align: center;
+}
+
+#main-menu li a span::before {
+	position: absolute;
+	top: 0;
+	left: 100%;
+	width: 100%;
+	height: 100%;
+	background: #790e5f;
+	content: attr(data-hover);
+	-webkit-transition: background 0.4s;
+	-moz-transition: background 0.4s;
+	transition: background 0.4s;
+	-webkit-transform: rotateY(90deg);
+	-moz-transform: rotateY(90deg);
+	transform: rotateY(90deg);
+	-webkit-transform-origin: 0 50%;
+	-moz-transform-origin: 0 50%;
+	transform-origin: 0 50%;
+	pointer-events: none;
+}
+
+#main-menu li a:hover span,
+#main-menu li a:focus span {
+	background: #790e5f;
+	-webkit-transform: rotateY(-90deg);
+	-moz-transform: rotateY(-90deg);
+	transform: rotateY(-90deg);
+}
+
+#main-menu li a:hover span::before,
+#main-menu li a:focus span::before {
+	background: #ff00cc;	
+}
+*/
+
+#main-menu li a {
+	line-height: 2em;
+	-webkit-perspective: 800px;
+	-moz-perspective: 800px;
+	perspective: 800px;
+	color: #fff;
+}
+
+#main-menu li a span {
+	position: relative;
+	display: inline-block;
+	padding: 3px 7px 0;
+	/*background: #587285;*/
+	
+	-webkit-transition: background 0.6s;
+	-moz-transition: background 0.6s;
+	transition: background 0.6s;
+	-webkit-transform-origin: 50% 0;
+	-moz-transform-origin: 50% 0;
+	transform-origin: 50% 0;
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	-webkit-transform-origin: 0% 50%;
+	-moz-transform-origin: 0% 50%;
+	transform-origin: 0% 50%;
+	text-align: center;
+	text-transform: uppercase;
+	-webkit-border-radius: 0 0 3px 3px;
+	-moz-border-radius: 0 0 3px 3px;
+	border-radius: 0 0 3px 3px;
+}
+
+#main-menu li a span::before {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #ff00cc;
+	color: #fff;
+	content: attr(data-hover);
+	-webkit-transform: rotateX(270deg);
+	-moz-transform: rotateX(270deg);
+	transform: rotateX(270deg);
+	-webkit-transition: -webkit-transform 0.6s;
+	-moz-transition: -moz-transform 0.6s;
+	transition: transform 0.6s;
+	-webkit-transform-origin: 0 0;
+	-moz-transform-origin: 0 0;
+	transform-origin: 0 0;
+	pointer-events: none;
+		-webkit-border-radius: 0 0 3px 3px;
+	-moz-border-radius: 0 0 3px 3px;
+	border-radius: 0 0 3px 3px;
+}
+
+#main-menu li a:hover span,
+#main-menu li a:focus span,
+#main-menu li.active span {
+	background: #2f4351;
+}
+
+#main-menu li a:hover span::before,
+#main-menu li a:focus span::before {
+	-webkit-transform: rotateX(10deg);	
+	-moz-transform: rotateX(10deg);
+	transform: rotateX(10deg);
+}
+
+/*
+#main-menu li.login-link a{
+	color: #fc0;
 }
 
 #main-menu li a {
@@ -277,6 +417,8 @@ a.login-section:hover{
 #main-menu li.active a span{
 	width: 100%;
 }
+*/
+
 
 /*   CONTENT
 =================*/
