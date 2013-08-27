@@ -103,6 +103,10 @@
 	margin-bottom: 10px;
 }
 
+#testimonial-section p{
+	
+}
+
 #testimonial-section header nav{
 	float: right;
 }
@@ -137,13 +141,13 @@
 
 #testimonial-section .viewport{
 	width: 420px;
-	height: 145px;
+	height: 140px;
 	position: relative;
 	overflow: hidden;
 }
 
 #testimonial-section .overview{
-	height: 145px;
+	height: 140px;
 	position: absolute;
 	left: 0;
 	top: 0;
@@ -151,7 +155,7 @@
 
 #testimonial-section .overview li{
 	width: 420px;
-	height: 145px;
+	height: 140px;
 	float: left;
 	margin-right: 20px;
 }
