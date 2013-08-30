@@ -265,7 +265,8 @@ a.login-section:hover{
 	text-decoration: none;
 }
 
-#main-menu > ul > li.active > a{
+#main-menu > ul > li.active > a,
+#main-menu > ul > li.active > a:hover{
 	background-color: #ff00cc;
 	text-shadow: 1px 1px 0 rgba(0,0,0,0.3);
 }
