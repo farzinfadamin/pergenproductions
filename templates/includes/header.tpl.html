@@ -5,14 +5,43 @@
 				<div class="tel-section"><a href="tel:(855) 273-7436"><small>Call Us:</small> 1-855-2PERGEN</a></div>
 				<nav id="main-menu">
 					<ul>
-						<li <!--{if $action eq "homepage"}-->class="active"<!--{/if}-->><a href="<!--{$SiteData.urls.site.homepage}-->"><span data-hover="Home">Home</span></a></li>
-						<li <!--{if $action eq "services"}-->class="active"<!--{/if}-->><a href="<!--{$SiteData.urls.site.services}-->"><span data-hover="Services">Services</span></a></li>
-						<li <!--{if $action eq "portfolio"}-->class="active"<!--{/if}-->><a href="<!--{$SiteData.urls.site.portfolio}-->"><span data-hover="Portfolio">Portfolio</span></a></li>
-						<li <!--{if $action eq "testimonials"}-->class="active"<!--{/if}-->><a href="<!--{$SiteData.urls.site.testimonials}-->"><span data-hover="Testimonials">Testimonials</span></a></li>
-						<li <!--{if $action eq "events"}-->class="active"<!--{/if}-->><a href="<!--{$SiteData.urls.site.events}-->"><span data-hover="Events">Events</span></a></li>
-						<li <!--{if $action eq "about"}-->class="active"<!--{/if}-->><a href="<!--{$SiteData.urls.site.about}-->"><span data-hover="About Us">About Us</span></a></li>
-						<li <!--{if $action eq "contact"}-->class="active"<!--{/if}-->><a href="<!--{$SiteData.urls.site.contact}-->"><span data-hover="Contact Us">Contact Us</span></a></li>
-						<li class="login-link"><a href="http://pergenproduction.com"><span data-hover="Client Login">Client Login</span></a></li>
+						<li <!--{if $action eq "homepage"}-->class="active"<!--{/if}-->><a href="<!--{$SiteData.urls.site.homepage}-->">Home</a></li>
+						<li <!--{if $action eq "services"}-->class="active"<!--{/if}-->>
+							<a href="#">Services</a>
+							<ul>
+								<li>
+									<a href="#">Entertainment</a>
+									<ul>
+										<li><a href="<!--{$SiteData.urls.site.services_wedding}-->">Wedding</a></li>
+										<li><a href="<!--{$SiteData.urls.site.services_birthday}-->">Birthday</a></li>
+										<li><a href="<!--{$SiteData.urls.site.services_concert}-->">Concert</a></li>
+										<li><a href="<!--{$SiteData.urls.site.services_corporate}-->">Corporate Events</a></li>
+										<li><a href="<!--{$SiteData.urls.site.services_outdoor}-->">Outdoor Events</a></li>
+										<li><a href="<!--{$SiteData.urls.site.services_cultural}-->">Cultural Events</a></li>
+										<li><a href="<!--{$SiteData.urls.site.services_livePerformance}-->">Live Performance</a></li>
+										<li><a href="<!--{$SiteData.urls.site.services_DJs}-->">Nominated DJs and MCs</a></li>
+									</ul>
+								</li>
+								<li>
+									<a href="#">Equipment Rentals</a>
+									<ul>
+										<li><a href="<!--{$SiteData.urls.site.services_screens}-->">Video players, Projectors and Screens</a></li>
+										<li><a href="<!--{$SiteData.urls.site.services_ledLightingControl}-->">Intelligent LED Lighting Control System</a></li>
+										<li><a href="<!--{$SiteData.urls.site.services_ledMovingHead}-->">Intelligent LED Moving Head Lighting</a></li>
+										<li><a href="<!--{$SiteData.urls.site.services_ledPinSpot}-->">LED Pin-Spot Lighting</a></li>
+										<li><a href="<!--{$SiteData.urls.site.services_ledWashUplighting}-->">LED Wash Uplighting</a></li>
+									</ul>
+								</li>
+								<li><a href="<!--{$SiteData.urls.site.services_eventConsulting}-->">Event Consulting</a></li>
+								<li><a href="<!--{$SiteData.urls.site.services_onlinePlanner}-->">Online Planning Account</a></li>
+							</ul>
+						</li>
+						<li <!--{if $action eq "portfolio"}-->class="active"<!--{/if}-->><a href="<!--{$SiteData.urls.site.portfolio}-->">Portfolio</a></li>
+						<li <!--{if $action eq "testimonials"}-->class="active"<!--{/if}-->><a href="<!--{$SiteData.urls.site.testimonials}-->">Testimonials</a></li>
+						<li <!--{if $action eq "events"}-->class="active"<!--{/if}-->><a href="<!--{$SiteData.urls.site.events}-->">Events</a></li>
+						<li <!--{if $action eq "about"}-->class="active"<!--{/if}-->><a href="<!--{$SiteData.urls.site.about}-->">About Us</a></li>
+						<li <!--{if $action eq "contact"}-->class="active"<!--{/if}-->><a href="<!--{$SiteData.urls.site.contact}-->">Contact Us</a></li>
+						<li class="login-link"><a href="http://pergenproduction.com">Client Login</a></li>
 					</ul>
 				</nav>
 			</section>

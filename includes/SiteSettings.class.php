@@ -22,6 +22,7 @@ class SiteSettings {
 	public function setCoreJavascript(){
 		LiteFrame::IncludeJavascript('default.js');
 		
+		
 		if( LiteFrame::getActiveAction() === 'homepage'){
 			LiteFrame::IncludeLibraryJavascript('plugins/jquery.tinycarousel.min.js');
 		}

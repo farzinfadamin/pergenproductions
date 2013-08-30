@@ -238,192 +238,192 @@ a.login-section:hover{
 	border-radius: 5px;
 }
 
-#main-menu ul {
+#main-menu > ul {
 	margin-top: 9px;
 }
 
-#main-menu li {
+#main-menu > ul > li {
 	float: left;
 	margin: 0 3px;
-	
-}
-
-/*#main-menu li a {
-	line-height: 2em;
-	-webkit-perspective: 800px;
-	-moz-perspective: 800px;
-	perspective: 800px;
-	font-size: 14px;
-}
-
-#main-menu li a span {
 	position: relative;
-	display: inline-block;
-	width: 100%;
-	background: #bb0a8f;
-	-webkit-transition: -webkit-transform 0.4s, background 0.4s;
-	-moz-transition: -moz-transform 0.4s, background 0.4s;
-	transition: transform 0.4s, background 0.4s;
-	-webkit-transform-style: preserve-3d;
-	-moz-transform-style: preserve-3d;
-	transform-style: preserve-3d;
-	-webkit-transform-origin: 50% 50% -50px;
-	-moz-transform-origin: 50% 50% -50px;
-	transform-origin: 50% 50% -50px;
-	color: #fff;
-	text-align: center;
 }
 
-#main-menu li a span::before {
-	position: absolute;
-	top: 0;
-	left: 100%;
-	width: 100%;
-	height: 100%;
-	background: #790e5f;
-	content: attr(data-hover);
-	-webkit-transition: background 0.4s;
-	-moz-transition: background 0.4s;
-	transition: background 0.4s;
-	-webkit-transform: rotateY(90deg);
-	-moz-transform: rotateY(90deg);
-	transform: rotateY(90deg);
-	-webkit-transform-origin: 0 50%;
-	-moz-transform-origin: 0 50%;
-	transform-origin: 0 50%;
-	pointer-events: none;
-}
-
-#main-menu li a:hover span,
-#main-menu li a:focus span {
-	background: #790e5f;
-	-webkit-transform: rotateY(-90deg);
-	-moz-transform: rotateY(-90deg);
-	transform: rotateY(-90deg);
-}
-
-#main-menu li a:hover span::before,
-#main-menu li a:focus span::before {
-	background: #ff00cc;	
-}
-*/
-
-#main-menu li a {
+#main-menu > ul > li > a {
 	line-height: 2em;
-	-webkit-perspective: 800px;
-	-moz-perspective: 800px;
-	perspective: 800px;
-	color: #fff;
-}
-
-#main-menu li a span {
-	position: relative;
-	display: inline-block;
 	padding: 3px 7px 0;
-	/*background: #587285;*/
-	
 	-webkit-transition: background 0.2s;
 	-moz-transition: background 0.2s;
 	transition: background 0.2s;
-	-webkit-transform-origin: 50% 0;
-	-moz-transform-origin: 50% 0;
-	transform-origin: 50% 0;
-	-webkit-transform-style: preserve-3d;
-	-moz-transform-style: preserve-3d;
-	transform-style: preserve-3d;
-	-webkit-transform-origin: 0% 50%;
-	-moz-transform-origin: 0% 50%;
-	transform-origin: 0% 50%;
 	text-align: center;
 	text-transform: uppercase;
 	-webkit-border-radius: 0 0 3px 3px;
 	-moz-border-radius: 0 0 3px 3px;
 	border-radius: 0 0 3px 3px;
-}
-
-#main-menu li a:hover span{
-	
-}
-
-#main-menu li a:hover span,
-#main-menu li a:focus span,
-#main-menu li.active span {
-	background: #ff00cc;
-	text-shadow: 1px 1px 0 rgba(0,0,0,0.3);
-}
-/*
-#main-menu li a span::before {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background: #ff00cc;
 	color: #fff;
-	content: attr(data-hover);
-	-webkit-transform: rotateX(270deg);
-	-moz-transform: rotateX(270deg);
-	transform: rotateX(270deg);
-	-webkit-transition: -webkit-transform 0.6s;
-	-moz-transition: -moz-transform 0.6s;
-	transition: transform 0.6s;
-	-webkit-transform-origin: 0 0;
-	-moz-transform-origin: 0 0;
-	transform-origin: 0 0;
-	pointer-events: none;
-		-webkit-border-radius: 0 0 3px 3px;
-	-moz-border-radius: 0 0 3px 3px;
-	border-radius: 0 0 3px 3px;
-}
-
-
-#main-menu li a:hover span::before,
-#main-menu li a:focus span::before {
-	-webkit-transform: rotateX(10deg);	
-	-moz-transform: rotateX(10deg);
-	transform: rotateX(10deg);
-}
-
-#main-menu li.login-link a{
-	color: #fc0;
-}
-
-#main-menu li a {
-	float: left;
-	color: #fff;
-	line-height: 45px;
-	display: inline-block;
-	padding-bottom: 0;
-	font-weight: 400;
-	font-size: 14px;
-	position: relative;
-}
-
-#main-menu li a:hover{
 	text-decoration: none;
 }
 
-#main-menu li a span{
-	position: absolute;
-	left: 0;
-	top: 0;
-	height: 4px;
-	width: 0;
+#main-menu > ul > li.active > a{
 	background-color: #ff00cc;
-	
-	-webkit-transition: width 0.2s ease 0s;
-	-moz-transition: width 0.2s ease 0s;
-	-ms-transition: width 0.2s ease 0s;
-	-o-transition: width 0.2s ease 0s;
-	transition: width 0.2s ease 0s;
+	text-shadow: 1px 1px 0 rgba(0,0,0,0.3);
 }
 
-#main-menu li a:hover span,
-#main-menu li.active a span{
-	width: 100%;
+#main-menu > ul > li > a:hover,
+#main-menu > ul > li.hover > a{
+	background-color: #56758c;
+	text-shadow: 1px 1px 0 rgba(0,0,0,0.3);
+}
+
+#main-menu ul ul a{
+	color: #fff;
+	padding: 5px 10px;
+}
+
+#main-menu ul ul a:hover,
+#main-menu li.hover > a{
+	text-decoration: none;
+	background-color: #2f5775;
+	color: #fff;
+}
+
+#main-menu a.has-arrow{
+	background: url("images/general/arrows-white-right.png") no-repeat right center;
+	display: block;
+}
+
+/* 
+	LEVEL ONE
+*/
+#main-menu > ul { position: relative; }
+#main-menu > ul li { float: left; zoom: 1;}
+#main-menu > ul li a { display: block;}
+
+#main-menu > ul li.hover,
+#main-menu > ul li:hover { color: black; position: relative;}
+#main-menu > ul li.hover a {
+	-webkit-border-radius: 0; -moz-border-radius: 0; border-radius: 0;
+}
+
+/* 
+	LEVEL TWO
+*/
+#main-menu > ul ul { width: 220px; visibility: hidden; position: absolute; top: 100%; left: 0; z-index: 100; backgroun-color: #56758c; }
+#main-menu > ul ul li { font-weight: normal; background-color: #56758c; color: #fff; width: 100%; clear: both; line-height: 1.5em;}
+									  
+/* IE 6 & 7 Needs Inline Block */
+#main-menu > ul ul li a { border-right: none; display: block; } 
+
+/* 
+	LEVEL THREE
+*/
+#main-menu > ul ul ul { left: 100%; top: 0; }
+#main-menu > ul li:hover > ul { visibility: visible; }
+
+/*
+
+#main-menu li {
+	position:relative;
+}
+#main-menu li:hover {
+	visibility:inherit;
+}
+#main-menu a {
+	display:block;
+	position:relative;
+}
+#main-menu li ul {
+	position:absolute;
+	left:0;
+	width:150px; 
+	top:auto;
+	left:-999999px;
+	background-color: #56758c;
+}
+#main-menu li ul a {
+	zoom:1;
+}
+#main-menu li ul li {
+	float:left;
+	width:150px;
+}
+#main-menu li ul ul {
+	top:0;
+	margin:0 0 0 150px
+}
+
+#main-menu li:hover ul,
+#main-menu li:focus ul,
+#main-menu li.sf-hover ul { 
+	left:auto;
+}
+#main-menu li:hover ul ul,
+#main-menu li:focus ul ul,
+#main-menu li.sf-hover ul ul {
+	left:-999999px;
+}
+#main-menu ul li:hover ul,
+#main-menu ul li:focus ul,
+#main-menu ul li.sf-hover ul {
+	left:auto;
+}
+#main-menu ul li:hover ul ul,
+#main-menu ul li:focus ul ul,
+#main-menu ul li.sf-hover ul ul {
+	left:-999999px;
+}
+#main-menu ul ul li:hover ul,
+#main-menu ul ul li:focus ul,
+#main-menu ul ul li.sf-hover ul {
+	left:auto;
+}
+#main-menu ul ul li:hover ul ul,
+#main-menu ul ul li:focus ul ul,
+#main-menu ul ul li.sf-hover ul ul {
+	left:-999999px;
+}
+#main-menu ul ul ul li:hover ul,
+#main-menu ul ul ul li:focus ul,
+#main-menu ul ul ul li.sf-hover ul {
+	left:auto;
+}
+#main-menu ul ul ul li:hover ul ul,
+#main-menu ul ul ul li:focus ul ul,
+#main-menu ul ul ul li.sf-hover ul ul {
+	left:-999999px;
+}
+
+
+
+span.sf-arrow {
+	width:7px;
+	height:7px;
+	position:absolute;
+	top:50%;
+	right:4px;
+	margin-top: -2px;
+	display:block;
+	background: url("images/general/arrows-white.png") no-repeat 0 0;
+	overflow:hidden;
+	font-size:1px;
+}
+ul ul span.sf-arrow {
+	right:12px;
+	top:50%;
+	margin-top: -4px;
+	background-position:0 100%;
+}
+
+
+#main-menu > ul > li.sf-parent > a {
+	padding-right: 20px;
+}
+
+#main-menu > ul > li.sf-parent > a:hover {
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
 }
 */
-
 
 /*   CONTENT
 =================*/
@@ -466,7 +466,14 @@ a.login-section:hover{
 }
 
 #page-title h2{
-	margin: 20px 0;
+	margin: 20px 0 20px -20px;
+	background-color: #fff;
+	color: #222;
+	padding: 10px 20px;
+	display: inline-block;
+	-webkit-border-radius: 0 5px 5px 0;
+	-moz-border-radius: 0 5px 5px 0;
+	border-radius: 0 5px 5px 0;
 }
 
 .box {
