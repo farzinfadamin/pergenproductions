@@ -153,9 +153,11 @@ nav ul, nav li{
 =================*/
 
 #header {
-	display: inline-block;
+	float: left;
 	width: 100%;
 	position: relative;
+	z-index: 100;
+	margin-bottom: 10px;
 }
 
 #header > section{
@@ -290,6 +292,7 @@ a.login-section:hover{
 	background: url("images/general/arrows-white-right.png") no-repeat right center;
 	display: block;
 }
+
 
 /* 
 	LEVEL ONE
@@ -458,22 +461,36 @@ ul ul span.sf-arrow {
 
 #page-title{	
 	border-bottom: 1px solid #222;
-	padding: 15px 20px;
 	background-color: #010101;
 	-webkit-border-radius: 5px 5px 0 0;
 	-moz-border-radius: 5px 5px 0 0;
 	border-radius: 5px 5px 0 0;
+	float: left;
+	width: 100%;
+	padding: 10px 0;
+	margin-bottom: 20px;
+}
+
+#page-title > *{
+	clear: both;
 }
 
 #page-title h2{
-	margin: 20px 0 20px -20px;
+	margin: 20px 0;
 	background-color: #fff;
 	color: #222;
 	padding: 10px 20px;
-	display: inline-block;
+	float: left;
 	-webkit-border-radius: 0 5px 5px 0;
 	-moz-border-radius: 0 5px 5px 0;
 	border-radius: 0 5px 5px 0;
+}
+
+#page-title h4{
+	position: relative;
+	top: -10px;
+	left: 20px;
+	font-size: 14px;
 }
 
 .box {
