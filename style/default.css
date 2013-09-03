@@ -158,6 +158,7 @@ nav ul, nav li{
 	position: relative;
 	z-index: 100;
 	margin-bottom: 10px;
+	clear: both;
 }
 
 #header > section{

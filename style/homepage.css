@@ -11,6 +11,7 @@
 	-moz-border-radius: 5px;
 	position: relative;
 	overflow: hidden;
+	clear: both;
 }
 
 #slide-show .disable{
