@@ -14,8 +14,7 @@ class ContactUsPage {
 	private static $emailTemplate;
 	private static $userEmailTemplate;
 	private static $emailTitle = 'The PerGen Productions Website Contact Us Form';
-	private static $to = 'ffadamin@gmail.com';
-	//arahimza@yahoo.com
+	private static $to = 'arahimza@yahoo.com';
 	private static $cc = 'pedramphp@gmail.com';
 	private static $subject = "New Message: The PerGen Productions Website Contact Us Form";
 	private static $emailLogo;
