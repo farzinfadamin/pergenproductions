@@ -44,7 +44,7 @@
 			
 			$globalUrls = array();
 			$globalUrls["tel_number"] = "1-855-2PERGEN";
-			$globalUrls["fax_number"] = "703-542-1274";
+			$globalUrls["fax_number"] = "1-866-830-0721";
 			$globalUrls["address"] = "8206 Leesburg Pike, Suite 209, Vienna, VA 22182";
 			$globalUrls["email"] = "info@pergenproductions.com";
 			
