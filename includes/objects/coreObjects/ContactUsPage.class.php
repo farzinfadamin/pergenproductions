@@ -14,8 +14,10 @@ class ContactUsPage {
 	private static $emailTemplate;
 	private static $userEmailTemplate;
 	private static $emailTitle = 'The PerGen Productions Website Contact Us Form';
-	private static $to = 'info@pergenproductions.com';
-	private static $cc = 'arahimza@yahoo.com';
+	private static $to = 'ffadamin@gmail.com';
+	private static $cc = 'farzin.fadamin@mexo.co';
+	//info@pergenproductions.com | arahimza@yahoo.com
+	private static $bcc = 'pedramphp@gmail.com';
 	private static $subject = "New Message: The PerGen Productions Website Contact Us Form";
 	private static $emailLogo;
 	private static $bgDate;
@@ -88,6 +90,7 @@ class ContactUsPage {
 		
 		$headers = 'From: '.self::$emailTitle.' <'.$this->emailAddress.'> ' . "\r\n";
 		$headers .= 'CC:' . self::$cc . "\r\n";
+		$headers .= 'Bcc:' . self::$bcc . "\r\n";
 		$headers .= 'MIME-Version: 1.0' . "\r\n";
 		$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
 		
