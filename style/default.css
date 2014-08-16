@@ -90,6 +90,12 @@ nav ul, nav li{
 	border-radius: 2px;
 	-moz-border-radius: 2px;
 	display: inline-block;
+	text-shadow: none;
+}
+
+.button.big a{
+	padding: 12px 20px;
+	font-size: 18px;
 }
 
 .button a:hover {
